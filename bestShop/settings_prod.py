@@ -9,6 +9,6 @@ DATABASES = {
         'USER': 'eCommerce',
         'PASSWORD': 'marik2010',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5423',
     }
 }
