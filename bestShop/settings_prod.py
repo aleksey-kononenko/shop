@@ -4,7 +4,7 @@ ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresq1',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'db1',
         'USER': 'eCommerce',
         'PASSWORD': 'marik2010',
