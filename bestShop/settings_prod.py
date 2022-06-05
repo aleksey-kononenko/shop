@@ -1,5 +1,5 @@
 DEBUG = False
-ALLOWED_HOSTS = ['localhost', '138.197.187.146']
+ALLOWED_HOSTS = ['*',]
 
 
 DATABASES = {
