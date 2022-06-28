@@ -58,7 +58,7 @@ admin.site.register(Country, CountryAdmin)
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in Product._meta.fields]
+    list_display = ['id', 'name', 'type', 'category']
     list_filter = ['type', 'category']
     inlines = [ProductImageInline]
 

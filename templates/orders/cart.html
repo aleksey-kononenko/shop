@@ -6,22 +6,20 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container main-container headerOffset">
     <div class="row">
         <div class="breadcrumbDiv col-lg-12">
             <ul class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="category.html">Category</a></li>
-                <li class="active">Cart</li>
+                <li><a href="{% url 'home' %}">Домой</a></li>
+                <li><a href="category.html">Каталог</a></li>
+                <li class="active">Корзина</li>
             </ul>
         </div>
     </div>
+    <!--/.row-->
     <div class="row">
         <div class="col-lg-9 col-md-9 col-sm-7 col-xs-6 col-xxs-12 text-center-xs">
-            <h1 class="section-title-inner"><span><i class="glyphicon glyphicon-shopping-cart"></i> Shopping cart </span></h1>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar col-xs-6 col-xxs-12 text-center-xs">
-            <h4 class="caps"><a href="{% url 'home' %}"><i class="fa fa-chevron-left"></i> Back to shopping </a></h4>
+            <h1 class="section-title-inner"><span><i class="glyphicon glyphicon-shopping-cart"></i> Корзина </span></h1>
         </div>
     </div>
 
@@ -34,35 +32,39 @@
                             <table class="cartTable table-responsive" style="width:100%" id="cart_Table">
                                 <tbody>
                                     <tr class="CartProduct cartTableHeader">
-                                        <td style="width:15%">Product</td>
-                                        <td style="width:40%">Details</td>
+                                        <td style="width:15%">Товар</td>
+                                        <td style="width:40%">Описание</td>
                                         <td style="width:10%" class="delete">&nbsp;</td>
-                                        <td style="width:10%">QNT</td>
-                                        <td style="width:10%">Discount</td>
-                                        <td style="width:15%">Total</td>
+                                        <td style="width:10%">Кол.</td>
+                                        <td style="width:10%">Скидка</td>
+                                        <td style="width:15%">Всего,UAH</td>
                                     </tr>
-                                    {% for item_in_cart in products_in_cart %}
+                                    {% for item_in_cart in products %}
                                         <tr class="CartProduct">
                                             <td class="CartProductThumb">
-                                                <div><a href="product-details.html"><img src="" alt="img"></a>
-                                                </div>
+                                                <div><a href="{% url 'item' item_in_cart.id %}"><img src="{{ item_in_cart.img }}" alt="img"></a></div>
                                             </td>
                                             <td>
                                                 <div class="CartDescription">
-                                                    <h4><a href="{% url 'item' item_in_cart.product.id %}">{{ item_in_cart.product.name }}</a></h4>
-                                                    <div class="price"><span class="price-per-item">{{ item_in_cart.price_per_item }}UAH</span></div>
+                                                    <h4><a href="{% url 'item' item_in_cart.id %}">{{ item_in_cart.name }}</a></h4>
+                                                    <div class="price">
+                                                        <span class="price-per-item price-sales">{{ item_in_cart.price }}</span>
+                                                        {% if item_in_cart.discount %}
+                                                            <span class="price-standard" style="font-size: 16px">{{ item_in_cart.product_price }}UAH</span>
+                                                        {% endif %}
+                                                    </div>
                                                 </div>
                                             </td>
                                             <td class="delete">
-                                                <a title="Delete"> <i class="glyphicon glyphicon-trash fa-2x"></i></a>
+                                                <a title="Delete" class="delete-item" data-product_id = "{{ item_in_cart.id }}"> <i class="glyphicon glyphicon-trash fa-2x"></i></a>
                                             </td>
                                             <td>
                                                 <div class="input-group bootstrap-touchspin">
                                                     <input class="quanitySniper"  type="text" value="{{ item_in_cart.nmb }}" name="quanitySniper_{{ item_in_cart.id }}">
                                                 </div>
                                             </td>
-                                            <td>{{ item_in_cart.product.discount }}</td>
-                                            <td class="price total-price">{{ item_in_cart.total_price }}</td>
+                                            <td>{{ item_in_cart.discount }}</td>
+                                            <td class="price total-price">{{ item_in_cart.total }}</td>
                                         </tr>
                                     {% endfor %}
                                 </tbody>
@@ -72,10 +74,10 @@
                 </div>
                 <div class="cartFooter w100">
                     <div class="box-footer">
-                        <div class="pull-left"><a href="index.html" class="btn btn-default"> <i class="fa fa-arrow-left"></i> &nbsp; Continue shopping </a></div>
+                        <div class="pull-left"><a href="index.html" class="btn btn-default"> <i class="fa fa-arrow-left"></i> &nbsp; Продолжить покупки </a></div>
                         <div class="pull-right">
                             <button type="submit" class="btn btn-default update">
-                                <i class="fa fa-undo"></i>  Update cart
+                                <i class="fa fa-undo"></i>  Обновить корзину
                             </button>
                         </div>
                     </div>
@@ -86,36 +88,32 @@
         <div class="col-lg-3 col-md-3 col-sm-5 rightSidebar">
             <div class="contentBox">
                 <div class="w100 costDetails">
-                    <div class="table-block" id="order-detail-content"><a class="btn btn-primary btn-lg btn-block " title="checkout" href="checkout-0.html" style="margin-bottom:20px"> Proceed to
-                        checkout &nbsp; <i class="fa fa-arrow-right"></i> </a>
+                    <div class="table-block" id="order-detail-content"><a class="btn btn-primary btn-lg btn-block " title="checkout" href="{% url 'checkout' %}" style="margin-bottom:20px"> Оформить заказ
+                        <i class="fa fa-arrow-right"></i> </a>
                         <div class="w100 cartMiniTable">
                             <table id="cart-summary" class="std table">
                                 <tbody>
                                     <tr>
-                                        <td>Total products</td>
-                                        <td class="price">$216.51</td>
+                                        <td>Цена, UAH</td>
+                                        <td class="price">{{ order_product_price }}</td>
                                     </tr>
                                     <tr style="">
-                                        <td>Shipping</td>
-                                        <td class="price"><span class="success">Free shipping!</span></td>
+                                        <td>Доставка</td>
+                                        <td class="price"><span class="success">Бесплатно!</span></td>
                                     </tr>
                                     <tr class="cart-total-price ">
-                                        <td>Total (tax excl.)</td>
-                                        <td class="price">$216.51</td>
+                                        <td>Cкидка, UAH</td>
+                                        <td class="price">{{ order_discount }}</td>
                                     </tr>
                                     <tr>
-                                        <td>Total tax</td>
-                                        <td class="price" id="total-tax">$0.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td> Total</td>
+                                        <td>Итого, UAH</td>
                                         <td class=" site-color" id="total-price">{{ order_total_price }}</td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
                                             <div class="input-append couponForm">
-                                                <input class="col-lg-8" id="appendedInputButton" type="text" placeholder="Coupon code">
-                                                <button class="col-lg-4 btn btn-success" type="button">Apply!</button>
+                                                <input class="col-lg-6" id="appendedInputButton" type="text" placeholder="Код купона">
+                                                <button class="col-lg-6 btn btn-success" type="button">Применить!</button>
                                             </div>
                                         </td>
                                     </tr>

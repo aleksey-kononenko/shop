@@ -1,1 +1,2319 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2022-04-20T18:49:55.486Z", "user": 1, "content_type": 10, "object_id": "1", "object_repr": "Р‘РµР»С‹Р№", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2022-04-20T18:50:01.776Z", "user": 1, "content_type": 10, "object_id": "2", "object_repr": "Р РѕР·РѕРІС‹Р№", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2022-04-20T18:57:31.385Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Р РѕР·С‹", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2022-04-20T18:58:07.263Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "Р РѕР·С‹", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2022-04-20T19:05:24.367Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "Р РѕР·С‹", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2022-04-20T19:11:02.700Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2022-04-20T19:11:20.461Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2022-04-20T19:11:50.830Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2022-04-20T19:12:03.285Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "3", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2022-04-20T19:16:39.974Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2022-04-20T19:24:41.831Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0448\\u0438\\u0432\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2022-04-21T05:26:02.418Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2022-04-21T05:27:08.140Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2022-04-21T07:54:59.979Z", "user": 1, "content_type": 14, "object_id": "1", "object_repr": "Р’С‹С€РёРІРєР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2022-04-21T07:55:20.905Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "РљРёС‚Р°Р№", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2022-04-21T07:55:28.355Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "РњРѕР»РґРѕРІР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2022-04-21T07:55:36.972Z", "user": 1, "content_type": 12, "object_id": "3", "object_repr": "РЈРєСЂР°РёРЅР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2022-04-21T07:55:49.807Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Р’С‹С€РёРІРєР° РєСЂРµСЃС‚РѕРј", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2022-04-21T07:56:02.264Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–14", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2022-04-21T07:56:12.376Z", "user": 1, "content_type": 13, "object_id": "2", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–18", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2022-04-21T08:43:16.060Z", "user": 1, "content_type": 14, "object_id": "2", "object_repr": "РџРѕРґРІРµСЃРєРё", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2022-04-21T09:08:22.033Z", "user": 1, "content_type": 10, "object_id": "2", "object_repr": "Р РѕР·РѕРІС‹Р№", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2022-04-21T09:08:22.040Z", "user": 1, "content_type": 10, "object_id": "1", "object_repr": "Р‘РµР»С‹Р№", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2022-04-21T09:48:19.955Z", "user": 1, "content_type": 14, "object_id": "2", "object_repr": "РџРѕРґРІРµСЃРєРё", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2022-04-21T09:48:19.961Z", "user": 1, "content_type": 14, "object_id": "1", "object_repr": "Р’С‹С€РёРІРєР°", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2022-04-21T12:46:27.987Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Р’С‹С€РёРІРєР° РєСЂРµСЃС‚РѕРј", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2022-04-21T12:58:18.850Z", "user": 1, "content_type": 13, "object_id": "2", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–18", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2022-04-21T12:58:18.857Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–14", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2022-04-21T13:01:45.846Z", "user": 1, "content_type": 12, "object_id": "3", "object_repr": "РЈРєСЂР°РёРЅР°", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2022-04-21T13:01:45.853Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "РњРѕР»РґРѕРІР°", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2022-04-21T13:01:45.858Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "РљРёС‚Р°Р№", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2022-04-21T13:20:39.970Z", "user": 1, "content_type": 14, "object_id": "3", "object_repr": "Р’С‹С€РёРІРєР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2022-04-21T13:20:46.871Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Р’С‹С€РёРІРєР° РєСЂРµСЃС‚РѕРј", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2022-04-21T13:21:06.247Z", "user": 1, "content_type": 13, "object_id": "3", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–14", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2022-04-21T13:21:28.093Z", "user": 1, "content_type": 12, "object_id": "4", "object_repr": "РљРёС‚Р°Р№", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2022-04-21T13:23:08.457Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2022-04-21T13:30:49.287Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\"}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2022-04-21T13:33:58.600Z", "user": 1, "content_type": 13, "object_id": "4", "object_repr": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–18", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2022-04-21T13:34:08.649Z", "user": 1, "content_type": 12, "object_id": "5", "object_repr": "РњРѕР»РґРѕРІР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2022-04-21T13:36:33.713Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2022-04-21T13:37:47.904Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2022-04-21T13:42:43.792Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0426\\u0435\\u043d\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2022-04-21T13:43:51.283Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0426\\u0435\\u043d\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2022-04-21T16:50:20.584Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\", \"fields\": [\"\\u0413\\u043b\\u0430\\u0432\\u043d\\u0430\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2022-04-21T16:50:29.726Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\", \"fields\": [\"\\u0413\\u043b\\u0430\\u0432\\u043d\\u0430\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2022-04-24T16:56:08.725Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» вЂў В«Rose CuttingsВ» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2022-04-24T16:56:17.820Z", "user": 1, "content_type": 9, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043a\\u0438\\u0434\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2022-04-25T11:23:55.313Z", "user": 1, "content_type": 9, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2022-04-25T11:26:56.677Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Р’С‹С€РёРІРєР° Р±РёСЃСЃРµСЂРѕРј", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2022-04-25T11:27:12.189Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Р’С‹С€РёРІРєР° Р±РёСЃРµСЂРѕРј", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2022-04-25T11:28:21.808Z", "user": 1, "content_type": 13, "object_id": "5", "object_repr": "РўРєР°РЅСЊ СЃ РЅР°РЅРµСЃРµРЅРЅС‹Рј РїРѕР»РЅРѕС†РІРµС‚РЅС‹Рј СЂРёСЃСѓРЅРєРѕРј", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2022-04-25T11:31:15.154Z", "user": 1, "content_type": 12, "object_id": "6", "object_repr": "РЈРєСЂР°РёРЅР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2022-04-25T11:36:26.130Z", "user": 1, "content_type": 13, "object_id": "6", "object_repr": "РђС‚Р»Р°СЃ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2022-04-25T11:38:37.042Z", "user": 1, "content_type": 9, "object_id": "3", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2022-04-25T11:47:46.375Z", "user": 1, "content_type": 14, "object_id": "4", "object_repr": "Р”СЂСѓРіРёРµ РЅР°Р±РѕСЂС‹", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2022-04-25T11:48:03.334Z", "user": 1, "content_type": 11, "object_id": "4", "object_repr": "РђР»РјР°Р·РЅР°СЏ РјРѕР·Р°РёРєР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2022-04-25T11:48:31.835Z", "user": 1, "content_type": 13, "object_id": "7", "object_repr": "РџРѕР»РѕС‚РЅРѕ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2022-04-25T11:52:37.744Z", "user": 1, "content_type": 9, "object_id": "4", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2022-04-25T14:41:20.404Z", "user": 1, "content_type": 13, "object_id": "5", "object_repr": "РўРєР°РЅСЊ СЃ РЅР°РЅРµСЃРµРЅРЅС‹Рј РїРѕР»РЅРѕС†РІРµС‚РЅС‹Рј СЂРёСЃСѓРЅРєРѕРј", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2022-05-08T14:20:46.302Z", "user": 1, "content_type": 17, "object_id": "1", "object_repr": "РљРѕСЂР·РёРЅР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2022-05-08T14:21:09.571Z", "user": 1, "content_type": 17, "object_id": "2", "object_repr": "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2022-05-08T14:21:20.481Z", "user": 1, "content_type": 17, "object_id": "3", "object_repr": "Р”РѕСЃС‚Р°РІРєР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2022-05-08T14:21:40.008Z", "user": 1, "content_type": 17, "object_id": "4", "object_repr": "Р’С‹РїРѕР»РЅРµРЅРѕ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2022-05-08T14:56:05.609Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "РљРѕРЅРѕРЅРµРЅРєРѕ", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2022-05-08T15:00:08.798Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "РљРѕРЅРѕРЅРµРЅРєРѕ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2022-05-08T15:06:39.634Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РљРѕСЂР·РёРЅР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2022-05-08T15:06:58.726Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2022-05-08T15:07:40.940Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"}}, {"model": "admin.logentry", "pk": 69, "fields": {"action_time": "2022-05-08T15:46:23.531Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Price per item\"]}}]"}}, {"model": "admin.logentry", "pk": 70, "fields": {"action_time": "2022-05-08T15:47:24.322Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Price per item\"]}}]"}}, {"model": "admin.logentry", "pk": 71, "fields": {"action_time": "2022-05-08T15:47:41.138Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Price per item\"]}}]"}}, {"model": "admin.logentry", "pk": 72, "fields": {"action_time": "2022-05-08T15:55:30.096Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ Р”РѕСЃС‚Р°РІРєР°", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"}}, {"model": "admin.logentry", "pk": 73, "fields": {"action_time": "2022-05-08T16:31:15.025Z", "user": 1, "content_type": 15, "object_id": "1", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 74, "fields": {"action_time": "2022-05-08T16:46:45.615Z", "user": 1, "content_type": 15, "object_id": "2", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 75, "fields": {"action_time": "2022-05-08T16:47:05.521Z", "user": 1, "content_type": 15, "object_id": "3", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 76, "fields": {"action_time": "2022-05-08T16:50:17.224Z", "user": 1, "content_type": 16, "object_id": "3", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РљРѕСЂР·РёРЅР°", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 77, "fields": {"action_time": "2022-05-08T16:50:34.997Z", "user": 1, "content_type": 15, "object_id": "4", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 78, "fields": {"action_time": "2022-05-08T16:51:57.777Z", "user": 1, "content_type": 15, "object_id": "4", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 79, "fields": {"action_time": "2022-05-08T16:51:57.784Z", "user": 1, "content_type": 15, "object_id": "3", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 80, "fields": {"action_time": "2022-05-08T16:51:57.789Z", "user": 1, "content_type": 15, "object_id": "2", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 81, "fields": {"action_time": "2022-05-08T16:52:07.006Z", "user": 1, "content_type": 16, "object_id": "3", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 3", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 82, "fields": {"action_time": "2022-05-08T16:53:53.870Z", "user": 1, "content_type": 15, "object_id": "5", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 83, "fields": {"action_time": "2022-05-08T16:54:03.011Z", "user": 1, "content_type": 15, "object_id": "5", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"}}, {"model": "admin.logentry", "pk": 84, "fields": {"action_time": "2022-05-08T16:58:02.109Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 85, "fields": {"action_time": "2022-05-08T17:43:59.353Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 86, "fields": {"action_time": "2022-05-08T17:44:21.339Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\", \"fields\": [\"\\u041a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\"]}}]"}}, {"model": "admin.logentry", "pk": 87, "fields": {"action_time": "2022-05-08T17:44:41.064Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 88, "fields": {"action_time": "2022-05-08T17:44:49.801Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\", \"fields\": [\"Is active\"]}}]"}}, {"model": "admin.logentry", "pk": 89, "fields": {"action_time": "2022-05-08T17:45:05.040Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\", \"fields\": [\"Is active\"]}}]"}}, {"model": "admin.logentry", "pk": 90, "fields": {"action_time": "2022-05-08T17:45:08.143Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\"}}]"}}, {"model": "admin.logentry", "pk": 91, "fields": {"action_time": "2022-05-08T17:47:47.714Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 92, "fields": {"action_time": "2022-05-08T18:20:05.962Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 93, "fields": {"action_time": "2022-05-08T18:22:22.824Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 94, "fields": {"action_time": "2022-05-08T18:22:44.962Z", "user": 1, "content_type": 15, "object_id": "8", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 95, "fields": {"action_time": "2022-05-08T18:30:47.266Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 96, "fields": {"action_time": "2022-05-11T08:43:00.214Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 97, "fields": {"action_time": "2022-05-11T08:50:14.378Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 98, "fields": {"action_time": "2022-05-11T08:54:39.099Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 99, "fields": {"action_time": "2022-05-11T08:54:44.135Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 100, "fields": {"action_time": "2022-05-11T08:55:04.257Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 101, "fields": {"action_time": "2022-05-11T08:56:59.671Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 102, "fields": {"action_time": "2022-05-11T08:59:03.686Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 103, "fields": {"action_time": "2022-05-11T08:59:26.759Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\", \"fields\": [\"Is active\"]}}]"}}, {"model": "admin.logentry", "pk": 104, "fields": {"action_time": "2022-05-11T08:59:32.805Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 105, "fields": {"action_time": "2022-05-11T09:00:44.920Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\"}}]"}}, {"model": "admin.logentry", "pk": 106, "fields": {"action_time": "2022-05-11T09:04:56.735Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\"}}]"}}, {"model": "admin.logentry", "pk": 107, "fields": {"action_time": "2022-05-11T09:05:42.098Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 108, "fields": {"action_time": "2022-05-11T09:06:59.025Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 109, "fields": {"action_time": "2022-05-11T09:12:29.001Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 110, "fields": {"action_time": "2022-05-11T09:12:40.081Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 111, "fields": {"action_time": "2022-05-11T09:12:45.630Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 112, "fields": {"action_time": "2022-05-11T09:14:08.135Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 113, "fields": {"action_time": "2022-05-11T09:14:18.393Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 114, "fields": {"action_time": "2022-05-11T09:14:34.436Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 115, "fields": {"action_time": "2022-05-11T09:14:49.737Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 116, "fields": {"action_time": "2022-05-11T09:26:48.140Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 117, "fields": {"action_time": "2022-05-11T09:26:59.161Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 118, "fields": {"action_time": "2022-05-11T09:27:20.824Z", "user": 1, "content_type": 15, "object_id": "21", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 119, "fields": {"action_time": "2022-05-11T09:27:41.525Z", "user": 1, "content_type": 15, "object_id": "20", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 120, "fields": {"action_time": "2022-05-11T09:29:34.343Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\", \"fields\": [\"Product\"]}}]"}}, {"model": "admin.logentry", "pk": 121, "fields": {"action_time": "2022-05-11T09:29:47.974Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 122, "fields": {"action_time": "2022-05-11T09:29:57.634Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 123, "fields": {"action_time": "2022-05-11T12:29:46.641Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"}}, {"model": "admin.logentry", "pk": 124, "fields": {"action_time": "2022-05-11T13:16:28.078Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 125, "fields": {"action_time": "2022-05-11T15:13:13.329Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 126, "fields": {"action_time": "2022-05-11T15:25:21.036Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 127, "fields": {"action_time": "2022-05-11T15:29:40.998Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 128, "fields": {"action_time": "2022-05-11T15:34:20.619Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 2", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 129, "fields": {"action_time": "2022-05-11T16:27:16.797Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 130, "fields": {"action_time": "2022-05-11T16:44:58.294Z", "user": 1, "content_type": 15, "object_id": "3", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 131, "fields": {"action_time": "2022-05-11T16:48:57.936Z", "user": 1, "content_type": 15, "object_id": "5", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 132, "fields": {"action_time": "2022-05-11T16:48:57.942Z", "user": 1, "content_type": 15, "object_id": "4", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 133, "fields": {"action_time": "2022-05-11T16:48:57.948Z", "user": 1, "content_type": 15, "object_id": "2", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 134, "fields": {"action_time": "2022-05-11T17:37:38.293Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 135, "fields": {"action_time": "2022-05-11T18:01:08.573Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 136, "fields": {"action_time": "2022-05-11T18:04:03.707Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 137, "fields": {"action_time": "2022-05-11T18:24:09.604Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 138, "fields": {"action_time": "2022-05-12T14:03:25.589Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 139, "fields": {"action_time": "2022-05-12T14:09:14.768Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 140, "fields": {"action_time": "2022-05-12T14:50:05.637Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\"}}]"}}, {"model": "admin.logentry", "pk": 141, "fields": {"action_time": "2022-05-12T17:06:22.631Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u0431\\u0438\\u0441\\u0435\\u0440\\u043e\\u043c Butterfly \\u041d\\u0430\\u0442\\u044e\\u0440\\u043c\\u043e\\u0440\\u0442 \\u0441 \\u0433\\u0440\\u0430\\u043d\\u0430\\u0442\\u0430\\u043c\\u0438 (161)\"}}, {\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 142, "fields": {"action_time": "2022-05-12T17:23:34.318Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ 1", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\", \"fields\": [\"\\u041a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\"]}}, {\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\", \"fields\": [\"\\u041a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\"]}}]"}}, {"model": "admin.logentry", "pk": 143, "fields": {"action_time": "2022-05-14T10:54:26.335Z", "user": 1, "content_type": 15, "object_id": "21", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 144, "fields": {"action_time": "2022-05-14T11:21:36.782Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РљР°С‚СЏ 2", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 145, "fields": {"action_time": "2022-05-14T11:35:02.861Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ 1", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\", \"fields\": [\"\\u041a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\"]}}]"}}, {"model": "admin.logentry", "pk": 146, "fields": {"action_time": "2022-05-14T12:22:41.737Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ 1", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 147, "fields": {"action_time": "2022-05-14T12:23:11.937Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РљР°С‚СЏ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"\\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u0430\\u043d\\u0438\\u044f \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c B2229 \\u041a\\u0440\\u0430\\u0441\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b \\u0441 \\u0432\\u0438\\u043d\\u043e\\u0433\\u0440\\u0430\\u0434\\u043e\\u043c, \\u041b\\u0443\\u043a\\u0430-\\u0421\"}}]"}}, {"model": "admin.logentry", "pk": 148, "fields": {"action_time": "2022-05-14T12:23:44.441Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РљР°С‚СЏ 2", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"31742 \\u0423 \\u043f\\u0440\\u0443\\u0434\\u0430. Dream Art. \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0430\\u043b\\u043c\\u0430\\u0437\\u043d\\u043e\\u0439 \\u043c\\u043e\\u0437\\u0430\\u0438\\u043a\\u0438\"}}]"}}, {"model": "admin.logentry", "pk": 149, "fields": {"action_time": "2022-05-18T11:26:35.742Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "erseh arehseh 4", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 150, "fields": {"action_time": "2022-05-18T11:26:35.748Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "sdrge agerg 3", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 151, "fields": {"action_time": "2022-05-18T12:25:59.449Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ 1", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"}}, {"model": "admin.logentry", "pk": 152, "fields": {"action_time": "2022-05-18T13:01:28.715Z", "user": 1, "content_type": 15, "object_id": "23", "object_repr": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 153, "fields": {"action_time": "2022-05-18T13:01:28.720Z", "user": 1, "content_type": 15, "object_id": "22", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 154, "fields": {"action_time": "2022-05-18T13:01:28.725Z", "user": 1, "content_type": 15, "object_id": "20", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 155, "fields": {"action_time": "2022-05-18T13:01:28.730Z", "user": 1, "content_type": 15, "object_id": "12", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 156, "fields": {"action_time": "2022-05-18T13:01:38.663Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ Р•Р»РµРЅР° 2", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 157, "fields": {"action_time": "2022-05-18T13:01:38.669Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р·   1", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 158, "fields": {"action_time": "2022-05-18T13:25:02.522Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 159, "fields": {"action_time": "2022-05-18T13:25:27.266Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 160, "fields": {"action_time": "2022-05-18T13:27:51.309Z", "user": 1, "content_type": 15, "object_id": "24", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 161, "fields": {"action_time": "2022-05-18T14:00:36.652Z", "user": 1, "content_type": 15, "object_id": "25", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 162, "fields": {"action_time": "2022-05-18T14:00:47.599Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 163, "fields": {"action_time": "2022-05-18T14:02:11.392Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 164, "fields": {"action_time": "2022-05-18T14:06:38.460Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\"}}]"}}, {"model": "admin.logentry", "pk": 165, "fields": {"action_time": "2022-05-18T14:09:03.190Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\", \"fields\": [\"\\u041a\\u043b\\u044e\\u0447 \\u0441\\u0435\\u0441\\u0441\\u0438\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 166, "fields": {"action_time": "2022-05-26T16:38:17.570Z", "user": 1, "content_type": 16, "object_id": "1", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 167, "fields": {"action_time": "2022-05-26T16:39:46.006Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 168, "fields": {"action_time": "2022-05-26T16:41:51.512Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\", \"fields\": [\"\\u041a\\u043b\\u044e\\u0447 \\u0441\\u0435\\u0441\\u0441\\u0438\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 169, "fields": {"action_time": "2022-05-26T16:44:11.036Z", "user": 1, "content_type": 16, "object_id": "2", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ РђР»РµРєСЃРµР№ +380501426312", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 170, "fields": {"action_time": "2022-05-26T16:45:14.567Z", "user": 1, "content_type": 16, "object_id": "3", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ Р•Р»РµРЅР° +380501426313", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 171, "fields": {"action_time": "2022-05-26T16:46:28.099Z", "user": 1, "content_type": 16, "object_id": "3", "object_repr": "Р—Р°РєР°Р· РљРѕРЅРѕРЅРµРЅРєРѕ Р•Р»РµРЅР° +380501426313", "action_flag": 2, "change_message": "[{\"changed\": {\"name\": \"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"13720 \\u041d\\u0430\\u0431\\u043e\\u0440 \\u0434\\u043b\\u044f \\u0432\\u044b\\u0448\\u0438\\u0432\\u043a\\u0438 \\u043a\\u0440\\u0435\\u0441\\u0442\\u043e\\u043c \\u00ab\\u0421\\u0440\\u0435\\u0437\\u0430\\u043d\\u043d\\u044b\\u0435 \\u0440\\u043e\\u0437\\u044b\\u00bb DIMENSIONS\", \"fields\": [\"\\u041a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\"]}}]"}}, {"model": "admin.logentry", "pk": 172, "fields": {"action_time": "2022-05-27T13:50:13.125Z", "user": 1, "content_type": 15, "object_id": "34", "object_repr": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 173, "fields": {"action_time": "2022-05-27T13:50:13.135Z", "user": 1, "content_type": 15, "object_id": "33", "object_repr": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "action_flag": 3, "change_message": ""}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add Р—Р°РєР°Р·С‡РёРє", "content_type": 7, "codename": "add_customer"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change Р—Р°РєР°Р·С‡РёРє", "content_type": 7, "codename": "change_customer"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete Р—Р°РєР°Р·С‡РёРє", "content_type": 7, "codename": "delete_customer"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view Р—Р°РєР°Р·С‡РёРє", "content_type": 7, "codename": "view_customer"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Р¤РѕС‚РѕРіСЂР°С„РёСЏ", "content_type": 8, "codename": "add_productimage"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Р¤РѕС‚РѕРіСЂР°С„РёСЏ", "content_type": 8, "codename": "change_productimage"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Р¤РѕС‚РѕРіСЂР°С„РёСЏ", "content_type": 8, "codename": "delete_productimage"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Р¤РѕС‚РѕРіСЂР°С„РёСЏ", "content_type": 8, "codename": "view_productimage"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add РџСЂРѕРґСѓРєС‚", "content_type": 9, "codename": "add_product"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change РџСЂРѕРґСѓРєС‚", "content_type": 9, "codename": "change_product"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete РџСЂРѕРґСѓРєС‚", "content_type": 9, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view РџСЂРѕРґСѓРєС‚", "content_type": 9, "codename": "view_product"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add Р¦РІРµС‚", "content_type": 10, "codename": "add_color"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change Р¦РІРµС‚", "content_type": 10, "codename": "change_color"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete Р¦РІРµС‚", "content_type": 10, "codename": "delete_color"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view Р¦РІРµС‚", "content_type": 10, "codename": "view_color"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add РљР°С‚РµРіРѕСЂРёСЏ", "content_type": 11, "codename": "add_category"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change РљР°С‚РµРіРѕСЂРёСЏ", "content_type": 11, "codename": "change_category"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete РљР°С‚РµРіРѕСЂРёСЏ", "content_type": 11, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view РљР°С‚РµРіРѕСЂРёСЏ", "content_type": 11, "codename": "view_category"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add РЎС‚СЂР°РЅР°", "content_type": 12, "codename": "add_country"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change РЎС‚СЂР°РЅР°", "content_type": 12, "codename": "change_country"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete РЎС‚СЂР°РЅР°", "content_type": 12, "codename": "delete_country"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view РЎС‚СЂР°РЅР°", "content_type": 12, "codename": "view_country"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add Р’РёРґ С‚РєР°РЅРё", "content_type": 13, "codename": "add_textile"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change Р’РёРґ С‚РєР°РЅРё", "content_type": 13, "codename": "change_textile"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete Р’РёРґ С‚РєР°РЅРё", "content_type": 13, "codename": "delete_textile"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view Р’РёРґ С‚РєР°РЅРё", "content_type": 13, "codename": "view_textile"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add РўРёРї", "content_type": 14, "codename": "add_type"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change РўРёРї", "content_type": 14, "codename": "change_type"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete РўРёРї", "content_type": 14, "codename": "delete_type"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view РўРёРї", "content_type": 14, "codename": "view_type"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add РџСЂРѕРґСѓРєС‚ РІ Р·Р°РєР°Р·Рµ", "content_type": 15, "codename": "add_productinorder"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change РџСЂРѕРґСѓРєС‚ РІ Р·Р°РєР°Р·Рµ", "content_type": 15, "codename": "change_productinorder"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete РџСЂРѕРґСѓРєС‚ РІ Р·Р°РєР°Р·Рµ", "content_type": 15, "codename": "delete_productinorder"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view РџСЂРѕРґСѓРєС‚ РІ Р·Р°РєР°Р·Рµ", "content_type": 15, "codename": "view_productinorder"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add Р—Р°РєР°Р·", "content_type": 16, "codename": "add_order"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change Р—Р°РєР°Р·", "content_type": 16, "codename": "change_order"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete Р—Р°РєР°Р·", "content_type": 16, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view Р—Р°РєР°Р·", "content_type": 16, "codename": "view_order"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add РЎС‚Р°С‚СѓСЃ Р·Р°РєР°Р·Р°", "content_type": 17, "codename": "add_status"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change РЎС‚Р°С‚СѓСЃ Р·Р°РєР°Р·Р°", "content_type": 17, "codename": "change_status"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete РЎС‚Р°С‚СѓСЃ Р·Р°РєР°Р·Р°", "content_type": 17, "codename": "delete_status"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view РЎС‚Р°С‚СѓСЃ Р·Р°РєР°Р·Р°", "content_type": 17, "codename": "view_status"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$320000$VXFQySTJRJVXuMZRFj1dhU$TpoIbmLkFbixXzmKl9ySlxe0pf93x4HctdK77XtARzg=", "last_login": "2022-05-26T16:37:24.436Z", "is_superuser": true, "username": "alex", "first_name": "", "last_name": "", "email": "", "is_staff": true, "is_active": true, "date_joined": "2022-04-18T19:10:46.944Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 2, "fields": {"password": "ogorod2015", "last_login": null, "is_superuser": false, "username": "+380501426313", "first_name": "Р•Р»РµРЅР°", "last_name": "РљРѕРЅРѕРЅРµРЅРєРѕ", "email": "e.kononenko104@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2022-05-18T11:41:30.472Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 3, "fields": {"password": "marik2010", "last_login": null, "is_superuser": false, "username": "+380501426312", "first_name": "РђР»РµРєСЃРµР№", "last_name": "РљРѕРЅРѕРЅРµРЅРєРѕ", "email": "kononenko104@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2022-05-18T11:42:37.340Z", "groups": [], "user_permissions": []}}, {"model": "auth.user", "pk": 4, "fields": {"password": "marik2010", "last_login": null, "is_superuser": false, "username": "+380506230924", "first_name": "РљР°С‚СЏ", "last_name": "РљРѕРЅРѕРЅРµРЅРєРѕ", "email": "kind.a30001@gmail.com", "is_staff": false, "is_active": true, "date_joined": "2022-05-18T12:26:39.927Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "registration", "model": "customer"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "products", "model": "productimage"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "products", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "products", "model": "color"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "products", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "products", "model": "country"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "products", "model": "textile"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "products", "model": "type"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "orders", "model": "productinorder"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "orders", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "orders", "model": "status"}}, {"model": "sessions.session", "pk": "1o8ngkmxwqudwi3e977nglma6sowgngh", "fields": {"session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nnhlQ:gWWYjxIuEvaoEGDKf2bkMyNobp_XzBcX61xBZvIY_lE", "expire_date": "2022-05-22T14:20:00.711Z"}}, {"model": "sessions.session", "pk": "czrgj43futnjxm9h0xugzdrtrp72xfzb", "fields": {"session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nuGUG:F5OgObrGNxA91frNLzwCHRo0oaLdQH97SEXMsv2m0jc", "expire_date": "2022-06-09T16:37:24.442Z"}}, {"model": "sessions.session", "pk": "q2o8xh1buhog98524dq4jvokhm1rny4i", "fields": {"session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1ngWmd:R3pwOlg-hBIKRoLgVznaRruG9cKAQJSspdyJuZIiolY", "expire_date": "2022-05-02T19:11:35.300Z"}}, {"model": "products.type", "pk": 3, "fields": {"type": "Р’С‹С€РёРІРєР°"}}, {"model": "products.type", "pk": 4, "fields": {"type": "Р”СЂСѓРіРёРµ РЅР°Р±РѕСЂС‹"}}, {"model": "products.category", "pk": 2, "fields": {"category": "Р’С‹С€РёРІРєР° РєСЂРµСЃС‚РѕРј"}}, {"model": "products.category", "pk": 3, "fields": {"category": "Р’С‹С€РёРІРєР° Р±РёСЃРµСЂРѕРј"}}, {"model": "products.category", "pk": 4, "fields": {"category": "РђР»РјР°Р·РЅР°СЏ РјРѕР·Р°РёРєР°"}}, {"model": "products.textile", "pk": 3, "fields": {"textile": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–14"}}, {"model": "products.textile", "pk": 4, "fields": {"textile": "РљР°РЅРІР° РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ AIDA в„–18"}}, {"model": "products.textile", "pk": 6, "fields": {"textile": "РђС‚Р»Р°СЃ"}}, {"model": "products.textile", "pk": 7, "fields": {"textile": "РџРѕР»РѕС‚РЅРѕ"}}, {"model": "products.country", "pk": 4, "fields": {"country": "РљРёС‚Р°Р№"}}, {"model": "products.country", "pk": 5, "fields": {"country": "РњРѕР»РґРѕРІР°"}}, {"model": "products.country", "pk": 6, "fields": {"country": "РЈРєСЂР°РёРЅР°"}}, {"model": "products.product", "pk": 1, "fields": {"name": "13720 РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё РєСЂРµСЃС‚РѕРј В«РЎСЂРµР·Р°РЅРЅС‹Рµ СЂРѕР·С‹В» DIMENSIONS", "type": 3, "category": 2, "textile": 3, "color": null, "country": 4, "thread": "РњСѓР»РёРЅРµ", "material": null, "length": null, "themes": "Р¦РІРµС‚С‹", "technique": null, "stitching": "Р§Р°СЃС‚РёС‡РЅР°СЏ", "dimension": "36С…23СЃРј", "purpose": null, "equipment": "РЎС…РµРјР° вЂўРРіР»Р° вЂўРРЅСЃС‚СЂСѓРєС†РёСЏ", "num_color": 29, "num_bead": null, "description": "Р’С‹С€РёРІР°СЏ РёР»Рё СЃРѕР·РµСЂС†Р°СЏ СЌС‚Сѓ РєР°СЂС‚РёРЅСѓ РІС‹ РЅР°РІРµСЂРЅСЏРєР° СЃРјРѕР¶РµС‚Рµ РѕС‰СѓС‚РёС‚СЊ Р·Р°РїР°С… СЃР»Р°РґРєРѕРіРѕ РґСѓСЂРјР°РЅСЏС‰РµРіРѕ Р°СЂРѕРјР°С‚Р° С‚РѕР»СЊРєРѕ С‡С‚Рѕ СЃСЂРµР·Р°РЅРЅС‹С… СЂРѕР·. РљР»Р°СЃСЃРёС‡РµСЃРєРёР№ РґРёР·Р°Р№РЅ, РІС‹С€РёС‚С‹Р№ СЃ РїСЂРёРјРµРЅРµРЅРёРµРј С‚РµС…РЅРёРєРё РїРѕР»СѓРєСЂРµСЃС‚ РґР»СЏ Р»СѓС‡С€РµР№ РёРіСЂС‹ С‚РµРЅРµР№ Рё Р±РѕР»СЊС€РµРіРѕ С…СѓРґРѕР¶РµСЃС‚РІРµРЅРЅРѕ СЌС„С„РµРєС‚Р°.", "discount": 5, "price": "585.00", "is_active": true, "created": "2022-04-21T13:23:08.455Z", "updated": "2022-04-25T11:23:55.304Z"}}, {"model": "products.product", "pk": 2, "fields": {"name": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІР°РЅРёСЏ РєСЂРµСЃС‚РѕРј B2229 РљСЂР°СЃРЅС‹Рµ СЂРѕР·С‹ СЃ РІРёРЅРѕРіСЂР°РґРѕРј, Р›СѓРєР°-РЎ", "type": 3, "category": 2, "textile": 4, "color": null, "country": 5, "thread": "РњСѓР»РёРЅРµ", "material": null, "length": null, "themes": "РџСЂРёСЂРѕРґР°", "technique": null, "stitching": "Р§Р°СЃС‚РёС‡РЅР°СЏ", "dimension": "20С…33СЃРј", "purpose": null, "equipment": "СЃС…РµРјР° С‡РµСЂРЅРѕ-Р±РµР»Р°СЏ СЃРёРјРІРѕР»СЊРЅР°СЏ, РёРіР»Р°, РёРЅСЃС‚СЂСѓРєС†РёСЏ", "num_color": 29, "num_bead": null, "description": "РљСЂР°СЃРёРІС‹Р№ СЃРѕС‡РЅС‹Р№ РЅР°С‚СЋСЂРјРѕСЂС‚ СЃ Р±РѕСЂРґРѕРІС‹РјРё СЂРѕР·Р°РјРё Рё Р·РµР»РµРЅС‹Рј РІРёРЅРѕРіСЂР°РґРѕРј СѓРєСЂР°СЃРёС‚ РІР°С€Сѓ РіРѕСЃС‚РёРЅРЅСѓСЋ РёР»Рё Р·Р°РіРѕСЂРѕРґРЅРёР№ РґРѕРј", "discount": 10, "price": "390.00", "is_active": true, "created": "2022-04-21T13:36:33.712Z", "updated": "2022-04-24T16:56:17.816Z"}}, {"model": "products.product", "pk": 3, "fields": {"name": "РќР°Р±РѕСЂ РґР»СЏ РІС‹С€РёРІРєРё Р±РёСЃРµСЂРѕРј Butterfly РќР°С‚СЋСЂРјРѕСЂС‚ СЃ РіСЂР°РЅР°С‚Р°РјРё (161)", "type": 3, "category": 3, "textile": 6, "color": null, "country": 6, "thread": null, "material": null, "length": null, "themes": "Р¤СЂСѓРєС‚С‹, СЏРіРѕРґС‹", "technique": "РљСЂСѓРіРѕРІР°СЏ", "stitching": "РџРѕР»РЅР°СЏ", "dimension": "35С…27СЃРј", "purpose": null, "equipment": "РЎС…РµРјР° вЂўР‘РёСЃРµСЂвЂўРРіР»Р° вЂўРРЅСЃС‚СЂСѓРєС†РёСЏвЂўРўРєР°РЅСЊ СЃ РЅР°РЅРµСЃС‘РЅРЅС‹Рј РїРѕР»РЅРѕС†РІРµС‚РЅС‹Рј СЂРёСЃСѓРЅРєРѕРј", "num_color": 20, "num_bead": null, "description": "", "discount": 0, "price": "5787.00", "is_active": true, "created": "2022-04-25T11:38:37.029Z", "updated": "2022-04-25T11:38:37.029Z"}}, {"model": "products.product", "pk": 4, "fields": {"name": "31742 РЈ РїСЂСѓРґР°. Dream Art. РќР°Р±РѕСЂ Р°Р»РјР°Р·РЅРѕР№ РјРѕР·Р°РёРєРё", "type": 4, "category": 4, "textile": 7, "color": null, "country": 6, "thread": null, "material": null, "length": null, "themes": "РџРµР№Р·Р°Р¶Рё РїСЂРёСЂРѕРґС‹, СЃРµР»Рѕ", "technique": null, "stitching": "РџРѕР»РЅР°СЏ", "dimension": "38С…45СЃРј", "purpose": null, "equipment": null, "num_color": 34, "num_bead": null, "description": "Р’ РЅР°Р±РѕСЂ РІС…РѕРґРёС‚: С…РѕР»СЃС‚ СЃ РЅР°РЅРµСЃРµРЅРЅРѕР№ СЃРёРјРІРѕР»СЊРЅРѕР№ СЃС…РµРјРѕР№ Рё РєР»РµРµРІРѕР№ РѕСЃРЅРѕРІРѕР№ РґР»СЏ РІС‹РєР»Р°РґС‹РІР°РЅРёСЏ РєР°РјРЅРµР№. РЎРёРјРІРѕР»СЊРЅР°СЏ СЃС…РµРјР° СЃРІРµСЂС…Сѓ РїРѕРєСЂС‹С‚Р° РїР»РµРЅРєРѕР№. РџСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ РєР»СЋС‡ Рє СЃС…РµРјРµ Рё РїРѕРґСЂРѕР±РЅР°СЏ РёРЅСЃС‚СЂСѓРєС†РёСЏ, РїРёРЅС†РµС‚, РєР°СЂР°РЅРґР°С€ СЃ СЃРёР»РёРєРѕРЅРѕРІРѕР№ РїРѕРґСѓС€РµС‡РєРѕР№, Р°РєСЂРёР»РѕРІС‹Рµ РєРІР°РґСЂР°С‚РЅС‹Рµ СЃРІРµСЂС…Сѓ РіСЂР°РЅРµРЅС‹Рµ РєР°РјРЅРё, СЂР°СЃС„Р°СЃРѕРІР°РЅРЅС‹Рµ РІ РїР°РєРµС‚РёРєРё. Р’ РЅР°Р±РѕСЂ С‚Р°РєР¶Рµ РІС…РѕРґРёС‚ РЅРµР±РѕР»СЊС€Р°СЏ С‚Р°СЂРµР»РѕС‡РєР° РґР»СЏ СѓРґРѕР±СЃС‚РІР° СЂР°Р±РѕС‚С‹ СЃ РєР°РјРЅСЏРјРё. РќР°Р±РѕСЂ СѓРїР°РєРѕРІР°РЅ РІ РїР»РѕС‚РЅСѓСЋ РєР°СЂС‚РѕРЅРЅСѓСЋ РєРѕСЂРѕР±РєСѓ, РєРѕС‚РѕСЂР°СЏ РЅР°РґРµР¶РЅРѕ Р·Р°С‰РёС‰Р°РµС‚ РєРѕРјРїР»РµРєС‚СѓСЋС‰РёРµ РѕС‚ РїРѕРІСЂРµР¶РґРµРЅРёСЏ Рё РёРјРµРµС‚ РїСЂРµР·РµРЅС‚Р°Р±РµР»СЊРЅС‹Р№ РІРёРґ", "discount": 0, "price": "999.00", "is_active": true, "created": "2022-04-25T11:52:37.736Z", "updated": "2022-04-25T11:52:37.737Z"}}, {"model": "products.productimage", "pk": 1, "fields": {"product": 1, "picture": "products_images/13720-nabor-dlya-vyshivaniya-krestom-srezannye-rozy-rose-cuttings-dimensions.jpg", "is_main": true, "created": "2022-04-21T13:30:49.283Z", "updated": "2022-04-21T16:50:20.583Z"}}, {"model": "products.productimage", "pk": 2, "fields": {"product": 1, "picture": "products_images/13720_dimensions_cross_stitch-3.jpg", "is_main": false, "created": "2022-04-21T13:30:49.285Z", "updated": "2022-04-21T13:30:49.285Z"}}, {"model": "products.productimage", "pk": 3, "fields": {"product": 1, "picture": "products_images/13720_dimensions_package_mouline-3.jpg", "is_main": false, "created": "2022-04-21T13:30:49.287Z", "updated": "2022-04-21T13:30:49.287Z"}}, {"model": "products.productimage", "pk": 4, "fields": {"product": 2, "picture": "products_images/B2229-3.jpg", "is_main": true, "created": "2022-04-21T13:37:47.901Z", "updated": "2022-04-21T16:50:29.725Z"}}, {"model": "products.productimage", "pk": 5, "fields": {"product": 2, "picture": "products_images/B2229-4.jpg", "is_main": false, "created": "2022-04-21T13:37:47.904Z", "updated": "2022-04-21T13:37:47.904Z"}}, {"model": "products.productimage", "pk": 6, "fields": {"product": 3, "picture": "products_images/010350a3ff938ba36d23b0465789c7ac.jpg", "is_main": true, "created": "2022-04-25T11:38:37.039Z", "updated": "2022-04-25T11:38:37.039Z"}}, {"model": "products.productimage", "pk": 7, "fields": {"product": 4, "picture": "products_images/4343a00a85acf1db02caf3cdd604d474.jpeg", "is_main": true, "created": "2022-04-25T11:52:37.743Z", "updated": "2022-04-25T11:52:37.743Z"}}, {"model": "orders.status", "pk": 1, "fields": {"name": "РљРѕСЂР·РёРЅР°"}}, {"model": "orders.status", "pk": 2, "fields": {"name": "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ"}}, {"model": "orders.status", "pk": 3, "fields": {"name": "Р”РѕСЃС‚Р°РІРєР°"}}, {"model": "orders.status", "pk": 4, "fields": {"name": "Р’С‹РїРѕР»РЅРµРЅРѕ"}}, {"model": "orders.order", "pk": 3, "fields": {"customer": 2, "status": 1, "address": "РћС‚РґРµР»РµРЅРёРµ в„–8 (РґРѕ 30 РєРі): Р±СѓР»СЊРІ. РљСЂР°РјР°С‚РѕСЂСЃРєРёР№, 15Р±", "total_price": "7701.00", "comment": "", "created": "2022-05-26T16:45:14.566Z", "updated": "2022-05-27T17:08:15.623Z"}}, {"model": "orders.productinorder", "pk": 35, "fields": {"order": 3, "product": 1, "nmb": 5, "price_per_item": "585.00", "total_price": "2925.00", "is_active": true, "session_key": "czrgj43futnjxm9h0xugzdrtrp72xfzb", "created": "2022-05-27T13:50:37.012Z", "updated": "2022-05-27T14:55:45.368Z"}}, {"model": "orders.productinorder", "pk": 36, "fields": {"order": 3, "product": 4, "nmb": 4, "price_per_item": "999.00", "total_price": "3996.00", "is_active": true, "session_key": "czrgj43futnjxm9h0xugzdrtrp72xfzb", "created": "2022-05-27T13:50:50.413Z", "updated": "2022-05-27T17:08:15.614Z"}}, {"model": "orders.productinorder", "pk": 37, "fields": {"order": 3, "product": 2, "nmb": 2, "price_per_item": "390.00", "total_price": "780.00", "is_active": true, "session_key": "czrgj43futnjxm9h0xugzdrtrp72xfzb", "created": "2022-05-27T15:03:05.430Z", "updated": "2022-05-27T15:03:15.254Z"}}]
+[
+{
+   "model": "admin.logentry",
+   "pk": 317,
+   "fields": {
+      "action_time": "2022-06-21T07:45:04.068Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "92",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 318,
+   "fields": {
+      "action_time": "2022-06-21T07:45:04.077Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "91",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 319,
+   "fields": {
+      "action_time": "2022-06-21T07:45:04.085Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "90",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 320,
+   "fields": {
+      "action_time": "2022-06-21T07:45:04.092Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "89",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 321,
+   "fields": {
+      "action_time": "2022-06-21T07:45:17.255Z",
+      "user": 3,
+      "content_type": 16,
+      "object_id": "6",
+      "object_repr": "Заказ Кононенко Елена +380501426313",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 322,
+   "fields": {
+      "action_time": "2022-06-21T07:45:17.263Z",
+      "user": 3,
+      "content_type": 16,
+      "object_id": "5",
+      "object_repr": "Заказ Кононенко Алексей +380501426312",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 325,
+   "fields": {
+      "action_time": "2022-06-21T09:38:14.170Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "96",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 326,
+   "fields": {
+      "action_time": "2022-06-21T09:38:14.180Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "95",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 327,
+   "fields": {
+      "action_time": "2022-06-21T12:51:01.383Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "99",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 328,
+   "fields": {
+      "action_time": "2022-06-21T12:51:01.392Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "98",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 329,
+   "fields": {
+      "action_time": "2022-06-21T12:51:01.400Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "97",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 330,
+   "fields": {
+      "action_time": "2022-06-21T14:04:49.780Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "103",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 331,
+   "fields": {
+      "action_time": "2022-06-21T14:04:49.789Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "102",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 332,
+   "fields": {
+      "action_time": "2022-06-21T14:04:49.795Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "101",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 333,
+   "fields": {
+      "action_time": "2022-06-21T14:04:49.800Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "100",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 334,
+   "fields": {
+      "action_time": "2022-06-21T14:06:10.044Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "104",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 335,
+   "fields": {
+      "action_time": "2022-06-21T14:12:35.843Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "105",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 336,
+   "fields": {
+      "action_time": "2022-06-22T05:52:10.869Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "107",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 337,
+   "fields": {
+      "action_time": "2022-06-22T05:52:10.877Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "106",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 338,
+   "fields": {
+      "action_time": "2022-06-22T06:09:07.940Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "4",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 339,
+   "fields": {
+      "action_time": "2022-06-22T06:09:07.946Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "3",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 340,
+   "fields": {
+      "action_time": "2022-06-22T06:09:07.952Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 341,
+   "fields": {
+      "action_time": "2022-06-22T06:09:07.957Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 342,
+   "fields": {
+      "action_time": "2022-06-22T13:53:08.940Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "8",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 343,
+   "fields": {
+      "action_time": "2022-06-22T13:53:08.949Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "7",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 344,
+   "fields": {
+      "action_time": "2022-06-22T13:53:08.955Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "6",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 345,
+   "fields": {
+      "action_time": "2022-06-22T13:53:08.962Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "5",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 346,
+   "fields": {
+      "action_time": "2022-06-22T16:50:43.260Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "9",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 347,
+   "fields": {
+      "action_time": "2022-06-23T08:41:50.175Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "12",
+      "object_repr": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 348,
+   "fields": {
+      "action_time": "2022-06-23T08:41:50.184Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "11",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 349,
+   "fields": {
+      "action_time": "2022-06-23T08:41:50.191Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "10",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 350,
+   "fields": {
+      "action_time": "2022-06-23T08:41:50.197Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "9",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 351,
+   "fields": {
+      "action_time": "2022-06-23T08:42:02.265Z",
+      "user": 3,
+      "content_type": 16,
+      "object_id": "7",
+      "object_repr": "Заказ Кононенко Алексей +380501426312",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 352,
+   "fields": {
+      "action_time": "2022-06-23T09:38:54.440Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "15",
+      "object_repr": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 353,
+   "fields": {
+      "action_time": "2022-06-23T09:38:54.451Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "14",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 354,
+   "fields": {
+      "action_time": "2022-06-23T09:38:54.458Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "13",
+      "object_repr": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 355,
+   "fields": {
+      "action_time": "2022-06-23T11:50:52.586Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "17",
+      "object_repr": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 364,
+   "fields": {
+      "action_time": "2022-06-26T16:40:31.646Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "Бисер 13 11/400гр",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u043e\\u0432\\u044b\\u0439\"]}}]"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add Заказчик",
+      "content_type": 7,
+      "codename": "add_customer"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change Заказчик",
+      "content_type": 7,
+      "codename": "change_customer"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete Заказчик",
+      "content_type": 7,
+      "codename": "delete_customer"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view Заказчик",
+      "content_type": 7,
+      "codename": "view_customer"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add Фотография",
+      "content_type": 8,
+      "codename": "add_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change Фотография",
+      "content_type": 8,
+      "codename": "change_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete Фотография",
+      "content_type": 8,
+      "codename": "delete_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view Фотография",
+      "content_type": 8,
+      "codename": "view_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can add Продукт",
+      "content_type": 9,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can change Продукт",
+      "content_type": 9,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 9,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can view Продукт",
+      "content_type": 9,
+      "codename": "view_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add Цвет",
+      "content_type": 10,
+      "codename": "add_color"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change Цвет",
+      "content_type": 10,
+      "codename": "change_color"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete Цвет",
+      "content_type": 10,
+      "codename": "delete_color"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can view Цвет",
+      "content_type": 10,
+      "codename": "view_color"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can add Категория",
+      "content_type": 11,
+      "codename": "add_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can change Категория",
+      "content_type": 11,
+      "codename": "change_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can delete Категория",
+      "content_type": 11,
+      "codename": "delete_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can view Категория",
+      "content_type": 11,
+      "codename": "view_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can add Страна",
+      "content_type": 12,
+      "codename": "add_country"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can change Страна",
+      "content_type": 12,
+      "codename": "change_country"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can delete Страна",
+      "content_type": 12,
+      "codename": "delete_country"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can view Страна",
+      "content_type": 12,
+      "codename": "view_country"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 49,
+   "fields": {
+      "name": "Can add Вид ткани",
+      "content_type": 13,
+      "codename": "add_textile"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 50,
+   "fields": {
+      "name": "Can change Вид ткани",
+      "content_type": 13,
+      "codename": "change_textile"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 51,
+   "fields": {
+      "name": "Can delete Вид ткани",
+      "content_type": 13,
+      "codename": "delete_textile"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 52,
+   "fields": {
+      "name": "Can view Вид ткани",
+      "content_type": 13,
+      "codename": "view_textile"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 53,
+   "fields": {
+      "name": "Can add Тип",
+      "content_type": 14,
+      "codename": "add_type"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 54,
+   "fields": {
+      "name": "Can change Тип",
+      "content_type": 14,
+      "codename": "change_type"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 55,
+   "fields": {
+      "name": "Can delete Тип",
+      "content_type": 14,
+      "codename": "delete_type"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 56,
+   "fields": {
+      "name": "Can view Тип",
+      "content_type": 14,
+      "codename": "view_type"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 57,
+   "fields": {
+      "name": "Can add Продукт в заказе",
+      "content_type": 15,
+      "codename": "add_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 58,
+   "fields": {
+      "name": "Can change Продукт в заказе",
+      "content_type": 15,
+      "codename": "change_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 59,
+   "fields": {
+      "name": "Can delete Продукт в заказе",
+      "content_type": 15,
+      "codename": "delete_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 60,
+   "fields": {
+      "name": "Can view Продукт в заказе",
+      "content_type": 15,
+      "codename": "view_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 61,
+   "fields": {
+      "name": "Can add Заказ",
+      "content_type": 16,
+      "codename": "add_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 62,
+   "fields": {
+      "name": "Can change Заказ",
+      "content_type": 16,
+      "codename": "change_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 63,
+   "fields": {
+      "name": "Can delete Заказ",
+      "content_type": 16,
+      "codename": "delete_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 64,
+   "fields": {
+      "name": "Can view Заказ",
+      "content_type": 16,
+      "codename": "view_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 65,
+   "fields": {
+      "name": "Can add Статус заказа",
+      "content_type": 17,
+      "codename": "add_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 66,
+   "fields": {
+      "name": "Can change Статус заказа",
+      "content_type": 17,
+      "codename": "change_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 67,
+   "fields": {
+      "name": "Can delete Статус заказа",
+      "content_type": 17,
+      "codename": "delete_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 68,
+   "fields": {
+      "name": "Can view Статус заказа",
+      "content_type": 17,
+      "codename": "view_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 69,
+   "fields": {
+      "name": "Can add Слайдер",
+      "content_type": 18,
+      "codename": "add_slider"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 70,
+   "fields": {
+      "name": "Can change Слайдер",
+      "content_type": 18,
+      "codename": "change_slider"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 71,
+   "fields": {
+      "name": "Can delete Слайдер",
+      "content_type": 18,
+      "codename": "delete_slider"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 72,
+   "fields": {
+      "name": "Can view Слайдер",
+      "content_type": 18,
+      "codename": "view_slider"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$320000$mivSHAey8p1g74mrOT3Aq9$/f2p3G+/IL0zIdwXtdqmB4mJZzJxPY2/gL0n84Cy0yM=",
+      "last_login": "2022-06-23T16:44:34.675Z",
+      "is_superuser": false,
+      "username": "+380501426313",
+      "first_name": "Елена",
+      "last_name": "Кононенко",
+      "email": "e.kononenko104@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-18T11:41:30Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 3,
+   "fields": {
+      "password": "pbkdf2_sha256$320000$UJWnBF8rdG9vGdz6uN415l$i6R1fOnvR3qNjDUfXezQBc9GMx9200bIFeAs9xWFNlc=",
+      "last_login": "2022-06-26T18:55:52.266Z",
+      "is_superuser": false,
+      "username": "+380501426312",
+      "first_name": "Алексей",
+      "last_name": "Кононенко",
+      "email": "kononenko104@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-18T11:42:37Z",
+      "groups": [],
+      "user_permissions": [
+         69,
+         70,
+         71,
+         72,
+         61,
+         62,
+         63,
+         64,
+         57,
+         58,
+         59,
+         60,
+         65,
+         66,
+         67,
+         68,
+         41,
+         42,
+         43,
+         44,
+         37,
+         38,
+         39,
+         40,
+         45,
+         46,
+         47,
+         48,
+         33,
+         34,
+         35,
+         36,
+         29,
+         30,
+         31,
+         32,
+         49,
+         50,
+         51,
+         52,
+         53,
+         54,
+         55,
+         56,
+         25,
+         26,
+         27,
+         28
+      ]
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 4,
+   "fields": {
+      "password": "pbkdf2_sha256$320000$wNnR5nW5oIYtwSdepu6UWD$sftQ5iRe0jDmVz1NQ/aQ7FxWR5e7y21WiOeZKnmcRWA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "+380506230924",
+      "first_name": "Катя",
+      "last_name": "Кононенко",
+      "email": "kind.a30001@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-18T12:26:39Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 17,
+   "fields": {
+      "password": "pbkdf2_sha256$320000$e0fnYhjcPgJWMeBjRIjVhK$9G59rO9FGvAPzvF+sN1VQx+mpOVc3CUAvnTreI9Gntw=",
+      "last_login": "2022-06-23T16:04:07.352Z",
+      "is_superuser": true,
+      "username": "alex",
+      "first_name": "",
+      "last_name": "",
+      "email": "kononenko104@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-06-23T16:03:30.302Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "registration",
+      "model": "customer"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "products",
+      "model": "productimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "products",
+      "model": "product"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "products",
+      "model": "color"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "products",
+      "model": "category"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "products",
+      "model": "country"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "products",
+      "model": "textile"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "products",
+      "model": "type"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 15,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinorder"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 16,
+   "fields": {
+      "app_label": "orders",
+      "model": "order"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 17,
+   "fields": {
+      "app_label": "orders",
+      "model": "status"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 18,
+   "fields": {
+      "app_label": "main",
+      "model": "slider"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "0h62r7eahacciqoav7p5xz60h2a82boj",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o2qq6:s6SdCntfvz-uetb4MuJtlrza30tCxsCWBndbN_4xsjo",
+      "expire_date": "2022-07-03T09:03:26.375Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "0vhhlrlmu6tzlkak6z719j6veg6g7ijl",
+   "fields": {
+      "session_data": "e30:1nzfXl:MuXUa_f3-OyavzrjLWKnI5cka0aU9ixYay6NnCeiXQw",
+      "expire_date": "2022-06-24T14:23:21.198Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "16klpssauoilchgxn5j0oyjjk4s27a4e",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3aTJ:I2VPYSS6hVCAMiq9zfdmP91WWRpb3NRELwHKKvtuRCo",
+      "expire_date": "2022-07-05T09:46:57.807Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "1o8ngkmxwqudwi3e977nglma6sowgngh",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nnhlQ:gWWYjxIuEvaoEGDKf2bkMyNobp_XzBcX61xBZvIY_lE",
+      "expire_date": "2022-05-22T14:20:00.711Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2y4azi6sx5ndv0daiuw1snz95bhnpj2c",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o4cG1:yU8JtRy5rg3ASiGI4TMQ45L-q5ddQXD_IiPkqzhAuWs",
+      "expire_date": "2022-07-08T05:53:29.834Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "4b5sazsensc0fnkmx8xu6q8gckh5xlws",
+   "fields": {
+      "session_data": "e30:1nzfsk:kHRRsXLH960mVmarFzpKu_Ajt5M3SyaB4S02Cr0mfUA",
+      "expire_date": "2022-06-24T14:45:02.812Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "55hgmdlq2x4xyew2ziojsrbto9n432mi",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3Wz4:8NGWivRE57VpogHTuBSn2Hd2PMSMdL5v7wDDwa9r_P8",
+      "expire_date": "2022-07-05T06:03:30.851Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "6bse13k1mu0qxcxph4d0klyhqdiaurl4",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3LnG:Bma2Sf_IQ8d9JjlWZkRIBtQMDj1YwuODi9iPFBfPGKI",
+      "expire_date": "2022-07-04T18:06:34.520Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "6qeyzkh76pnzer6dus0ijoly542tl3l3",
+   "fields": {
+      "session_data": "e30:1o4I9S:-9BRK9a0-x0yvywPVveTSWxSPt8TgCT4u_zV0oTieqY",
+      "expire_date": "2022-07-07T08:25:22.542Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "6ueudcwp6of1i0w4ppbbf0e6redqr30i",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o5XQG:U8TyNEcx5q5-ioRnIoSUJFhHFF4en0HcthTAyICWyO0",
+      "expire_date": "2022-07-10T18:55:52.286Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "7qq4p6tpsz6r77mlgqxonkyh0xb1ytj4",
+   "fields": {
+      "session_data": "e30:1o151E:HdR-EasaRbpWL2aPez8ox1aI0TBEDYGnJLqHT4jjEXU",
+      "expire_date": "2022-06-28T11:47:36.666Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "8w6v0e71gejushh4qcu1a0ol3juhjxm6",
+   "fields": {
+      "session_data": "e30:1o4PsH:glfaTMhwKcp_IrWr0996lG7yP5Bt6p9ZAO3CqLgPB-w",
+      "expire_date": "2022-07-07T16:40:09.130Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "9kjo90qx4wxvau5f02301sxa2g1r5vo2",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o4LNb:1MN1XTP38QlcXyXrJcXOdEwMZ_e0c4qm-hngAuqmwbA",
+      "expire_date": "2022-07-07T11:52:11.569Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "alhc2zqudhphmr8z610v9pxak7appulb",
+   "fields": {
+      "session_data": "e30:1nzfwu:FFrpi4By3W6-fDBJM8WgZNT321oIyrvvDYXAjguXGgA",
+      "expire_date": "2022-06-24T14:49:20.125Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "cn96fft0i4cpa3vs5k1f7sd7i80vmr6i",
+   "fields": {
+      "session_data": "e30:1o4HYo:huRkoBGAq80vj68QcrAstRxPUpp6JdY-TNKHcHBtn88",
+      "expire_date": "2022-07-07T07:47:30.605Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "czrgj43futnjxm9h0xugzdrtrp72xfzb",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nuGUG:F5OgObrGNxA91frNLzwCHRo0oaLdQH97SEXMsv2m0jc",
+      "expire_date": "2022-06-09T16:37:24.442Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "d6vuupn9szgbbf4p2onc0iecgntiq2rs",
+   "fields": {
+      "session_data": "e30:1nzfsj:nBiN7YPqT8Ee_uFVERc8GApYnbjhRjcE0mREDJjnR18",
+      "expire_date": "2022-06-24T14:45:01.328Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "dr9lfl6tq6p6200gfwsacg2u1rgrao4p",
+   "fields": {
+      "session_data": "e30:1nzeQ6:gooPHb_Y6gB2VPmB41FZqU_96yFjzluZ60nHVtleuF8",
+      "expire_date": "2022-06-24T13:11:22.194Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ebxtwpt7sv7hnic0iwaxcaq7qilfu2yi",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o152Z:6fL0Sn1fw8-eLXR7_2fy52LkFrfVvY7JrLE70Buj61E",
+      "expire_date": "2022-06-28T11:48:59.011Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "f9p4zhp4y505qwhfhd35jlpk3rc1yoy7",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o2ZgV:wDZCz2cIwXafO7YLcmir_G8Hl9D7BMad9VMNaV1EKSI",
+      "expire_date": "2022-07-02T14:44:23.293Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "g5710jhj6q9muwe3uucss9rtt0q7o8en",
+   "fields": {
+      "session_data": "e30:1o4HZd:yL9IfWfk58KVjFM3T0Xp2tEmje2Om5iV3oWksf5cfq4",
+      "expire_date": "2022-07-07T07:48:21.386Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "hif5361nsuw56x79lvjekgnn0b76uz3l",
+   "fields": {
+      "session_data": "e30:1o4Hzh:IN3nFjxqCQ0MoiFVIO_63FvfPLTQgqCP8vGIHDsIn2A",
+      "expire_date": "2022-07-07T08:15:17.651Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ijr099me354soy7vguntan93sauzzgiy",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nziKs:9-AGmSVkIWcV2HjSiFCCNb4V13t3WDATgUaO1PziYSk",
+      "expire_date": "2022-06-24T17:22:14.624Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "ild3hbj8ncyynwmjg85s7iqka1mzpq9k",
+   "fields": {
+      "session_data": "e30:1o4I3L:CzfjOOiGeYDvKDYFI6bxm3ef_ipZ8xpc50Qd4m6Ht2w",
+      "expire_date": "2022-07-07T08:19:03.150Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "jpvfhh4oxib0mozy3ecba8m4zfowix4q",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o0ofX:aeS4CI25NTKZey0naHF7Gd8BiG15iruZHzSAdf8E4VQ",
+      "expire_date": "2022-06-27T18:20:07.735Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "js1uu9q0tn63gbdc7ht9vyxqf3ms7qg5",
+   "fields": {
+      "session_data": "e30:1nzfv5:uZOj8OjTx2mlbvhivKyhoU4l80JxBKS6FTnimMsYkOA",
+      "expire_date": "2022-06-24T14:47:27.958Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "k05q9eis937zsnk1smt96y5zoo1svomi",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1nywD5:N6Zd-p-RnYIjgl598j1cCrIO9NCBUcQhMxhQIMYdbP4",
+      "expire_date": "2022-06-22T13:58:59.812Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "kfom3hhgmx7xykm1rlt3lksrvw1cr5et",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3x6B:WPDKsZaHkaER4KnFiAXRB37Rb3_YOKskWBwVFvMnT8g",
+      "expire_date": "2022-07-06T09:56:35.461Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "mu2j4ubpo8zrxmx3x7jp9zrj3tpx36wv",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o2bNv:uOXfSJh65XfXAY9Xe1nmMEjbOVYi-lQDMavDwcKOK1s",
+      "expire_date": "2022-07-02T16:33:19.591Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "n01gt16qxtrbmfv1pvwdryopxnd09x3j",
+   "fields": {
+      "session_data": "e30:1o15lr:IRQ2R3uj7S8B216Ir7wmuePD0HfJUXHzH1KuhplHYKQ",
+      "expire_date": "2022-06-28T12:35:47.358Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "oteqelc57ks5j6sfztzbatg2uupmj9yi",
+   "fields": {
+      "session_data": "e30:1nzfv7:XxydGQpeOy3B6L-fUBtYvLitttSWlWS2hut9op8Y4ro",
+      "expire_date": "2022-06-24T14:47:29.058Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "p41nc3vhko1gmt657sap967uacre5aoc",
+   "fields": {
+      "session_data": "e30:1o4I8E:Lklt-9WKbw9NahKBY54HUI_RYfTBhsyPaEIJDb29Bss",
+      "expire_date": "2022-07-07T08:24:06.400Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "q2o8xh1buhog98524dq4jvokhm1rny4i",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1ngWmd:R3pwOlg-hBIKRoLgVznaRruG9cKAQJSspdyJuZIiolY",
+      "expire_date": "2022-05-02T19:11:35.300Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "r1gh07vnil393nijx2mpe3x5oah6kxg2",
+   "fields": {
+      "session_data": "e30:1nzfto:UFov1h_k7AZG1HpWTtCR1zraWMXKDs3ucpA1elVpyQE",
+      "expire_date": "2022-06-24T14:46:08.495Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "rpf7yr17oxp8ooq80kl0refeqernj2o0",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3a5u:8o_J4ChowSE5hkSDdyj3Mgb_V1XZ9D78yi0FUGOI5ow",
+      "expire_date": "2022-07-05T09:22:46.302Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "rwu6ebsoyflmw7uuxf3wdg49fj8sn7fj",
+   "fields": {
+      "session_data": "e30:1nzfsw:LFPnViIkOW-xrVhkToU-CFpeuz8yjoJXTGx02Td2tDI",
+      "expire_date": "2022-06-24T14:45:14.691Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "sgcs6vv2x3nv7ia1ar0s6z8rhfhxk4oy",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o0fAx:VslIaLc5H_-4iaLD-PVw7N1NX25F7qywTteqxCgE8jY",
+      "expire_date": "2022-06-27T08:11:55.553Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "sqtn58u7ql8pacn8hjw78jdpoy799viy",
+   "fields": {
+      "session_data": "e30:1o4I4Q:sDGBXdu4IFdj_ED4hIsM3Dy4xDK7vGE-1LuiqeyZXUg",
+      "expire_date": "2022-07-07T08:20:10.813Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "vzgclum2guqq8t4dmu6ndmdtz9ao6hww",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o0lUz:FxTaf1cnPP3JzW52pXJwtPtXMcnnAGDV5Tn6G2ZjBZ0",
+      "expire_date": "2022-06-27T14:57:01.548Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "wxe1p2xvtelhugnbtj1o0i9lfy7g2q01",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o4P2s:-LNUjvhzuDs-jTBg4spfwzaxDkFrV1aZHmqaL6RXj0k",
+      "expire_date": "2022-07-07T15:47:02.195Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "x8ak7lup1df0jp11cek00hrhm75m4ykz",
+   "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUW4cRPMyM4ZKttJaAElUtNOiLtDpQ6w_vfef5mB12Uc1pbmYYrmbMAcfjdhfaSygXjncqtWa1nmSeym2J02e60xPS-7-3cwchu_9akXdF6C6zOiuJw6ghCRFbDLlDsgSeCYvQ_qj-C0lxAJPJGqEKB5fwDTLTd5:1o0lyF:V26R-ISWNO7WbJcp1nUUNIdI3uv7-y4L1zAtNSvm-4E",
+      "expire_date": "2022-06-27T15:27:15.207Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xbfect3n6q6oj4svxz88v4es80eli3a7",
+   "fields": {
+      "session_data": "e30:1nzfiS:xe-t_3gE9KwVTvJVUu_4wPMIRuWJJigr5u8wr-m8lVE",
+      "expire_date": "2022-06-24T14:34:24.444Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "xg3vkbrrkl39sg94j5x6hz5d670s8poo",
+   "fields": {
+      "session_data": "e30:1nzfvJ:7_ND4RT4m31zixHsADsqO9ejoRNSCaX7EAs72dH4LwE",
+      "expire_date": "2022-06-24T14:47:41.178Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "yxngyistf4rdidif1ob4uctecp7vmez3",
+   "fields": {
+      "session_data": "e30:1o0gKa:0VNqHlzqpznqg2O9ppfKz7Ny2ZzweO13520fxlZ--rU",
+      "expire_date": "2022-06-27T09:25:56.453Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "z0s8hcuyks6ni23kvwjylhfnx7rwua2i",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3Yba:SGt1jW3_VsF8wIyK4Uh4MMlZaA5Rr_Ld_PkiTqD0Gos",
+      "expire_date": "2022-07-05T07:47:22.751Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "zeh36u4aljmpr3ld15hidwq64m0l8n1z",
+   "fields": {
+      "session_data": "e30:1o3KWz:wQZdpCx2cPxOHPw7cliymHwIYvPz5tTuET098-uf2qs",
+      "expire_date": "2022-07-04T16:45:41.153Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "zsmdbew6443lacepfnpox3m5azu13ftj",
+   "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hDoAGNduvcMZIBBqgaS0q6MdzckXej2v_f-W3jat-L3zqtfkrgIEKffLVB8ch0gPajem4ytbusS5FDkQbu8tcSv6-H-HRTqZdTqjIjZYVSJrZ6zYQxGKUwOMs8BJiIyrE0GBKdTRBucmqKGDMqCE58v4AI3bw:1o3ugw:PCwec7l6seoAfUkxT5i8oH79peKczKic25o0pgSMqS0",
+      "expire_date": "2022-07-06T07:22:22.085Z"
+   }
+},
+{
+   "model": "main.slider",
+   "pk": 2,
+   "fields": {
+      "name": "Общий вид",
+      "slider": "slider/slider1.jpg",
+      "is_show": true
+   }
+},
+{
+   "model": "main.slider",
+   "pk": 3,
+   "fields": {
+      "name": "Рамки",
+      "slider": "slider/slider2.jpg",
+      "is_show": true
+   }
+},
+{
+   "model": "main.slider",
+   "pk": 4,
+   "fields": {
+      "name": "Оформление работ",
+      "slider": "slider/slider3.jpg",
+      "is_show": true
+   }
+},
+{
+   "model": "products.type",
+   "pk": 3,
+   "fields": {
+      "type": "Вышивка"
+   }
+},
+{
+   "model": "products.type",
+   "pk": 4,
+   "fields": {
+      "type": "Другие наборы"
+   }
+},
+{
+   "model": "products.type",
+   "pk": 5,
+   "fields": {
+      "type": "Бисер китайский"
+   }
+},
+{
+   "model": "products.category",
+   "pk": 2,
+   "fields": {
+      "category": "Вышивка крестом"
+   }
+},
+{
+   "model": "products.category",
+   "pk": 3,
+   "fields": {
+      "category": "Вышивка бисером"
+   }
+},
+{
+   "model": "products.category",
+   "pk": 4,
+   "fields": {
+      "category": "Алмазная мозаика"
+   }
+},
+{
+   "model": "products.category",
+   "pk": 5,
+   "fields": {
+      "category": "Серия р 11"
+   }
+},
+{
+   "model": "products.textile",
+   "pk": 3,
+   "fields": {
+      "textile": "Канва для вышивания AIDA №14"
+   }
+},
+{
+   "model": "products.textile",
+   "pk": 4,
+   "fields": {
+      "textile": "Канва для вышивания AIDA №18"
+   }
+},
+{
+   "model": "products.textile",
+   "pk": 6,
+   "fields": {
+      "textile": "Атлас"
+   }
+},
+{
+   "model": "products.textile",
+   "pk": 7,
+   "fields": {
+      "textile": "Полотно"
+   }
+},
+{
+   "model": "products.country",
+   "pk": 4,
+   "fields": {
+      "country": "Китай"
+   }
+},
+{
+   "model": "products.country",
+   "pk": 5,
+   "fields": {
+      "country": "Молдова"
+   }
+},
+{
+   "model": "products.country",
+   "pk": 6,
+   "fields": {
+      "country": "Украина"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 1,
+   "fields": {
+      "name": "13720 Набор для вышивки крестом «Срезанные розы» DIMENSIONS",
+      "type": 3,
+      "category": 2,
+      "textile": 3,
+      "color": null,
+      "country": 4,
+      "thread": "Мулине",
+      "material": null,
+      "length": null,
+      "themes": "Цветы",
+      "technique": null,
+      "stitching": "Частичная",
+      "dimension": "36х23см",
+      "purpose": null,
+      "equipment": "Схема •Игла •Инструкция",
+      "num_color": 29,
+      "num_bead": null,
+      "description": "Вышивая или созерцая эту картину вы наверняка сможете ощутить запах сладкого дурманящего аромата только что срезанных роз. Классический дизайн, вышитый с применением техники полукрест для лучшей игры теней и большего художественно эффекта.",
+      "discount": 5,
+      "price": "585.00",
+      "is_active": true,
+      "is_new": true,
+      "created": "2022-04-21T13:23:08.455Z",
+      "updated": "2022-06-10T09:39:43.977Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 2,
+   "fields": {
+      "name": "Набор для вышивания крестом B2229 Красные розы с виноградом, Лука-С",
+      "type": 3,
+      "category": 2,
+      "textile": 4,
+      "color": null,
+      "country": 5,
+      "thread": "Мулине",
+      "material": null,
+      "length": null,
+      "themes": "Природа",
+      "technique": null,
+      "stitching": "Частичная",
+      "dimension": "20х33см",
+      "purpose": null,
+      "equipment": "схема черно-белая символьная, игла, инструкция",
+      "num_color": 29,
+      "num_bead": null,
+      "description": "Красивый сочный натюрморт с бордовыми розами и зеленым виноградом украсит вашу гостинную или загородний дом",
+      "discount": 10,
+      "price": "390.00",
+      "is_active": true,
+      "is_new": true,
+      "created": "2022-04-21T13:36:33.712Z",
+      "updated": "2022-06-10T09:39:54.616Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 3,
+   "fields": {
+      "name": "Набор для вышивки бисером Butterfly Натюрморт с гранатами (161)",
+      "type": 3,
+      "category": 3,
+      "textile": 6,
+      "color": null,
+      "country": 6,
+      "thread": null,
+      "material": null,
+      "length": null,
+      "themes": "Фрукты, ягоды",
+      "technique": "Круговая",
+      "stitching": "Полная",
+      "dimension": "35х27см",
+      "purpose": null,
+      "equipment": "Схема •Бисер•Игла •Инструкция•Ткань с нанесённым полноцветным рисунком",
+      "num_color": 20,
+      "num_bead": null,
+      "description": "",
+      "discount": 10,
+      "price": "964.00",
+      "is_active": true,
+      "is_new": true,
+      "created": "2022-04-25T11:38:37.029Z",
+      "updated": "2022-06-13T08:12:37.827Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 4,
+   "fields": {
+      "name": "31742 У пруда. Dream Art. Набор алмазной мозаики",
+      "type": 4,
+      "category": 4,
+      "textile": 7,
+      "color": null,
+      "country": 6,
+      "thread": null,
+      "material": null,
+      "length": null,
+      "themes": "Пейзажи природы, село",
+      "technique": null,
+      "stitching": "Полная",
+      "dimension": "38х45см",
+      "purpose": null,
+      "equipment": null,
+      "num_color": 34,
+      "num_bead": null,
+      "description": "В набор входит: холст с нанесенной символьной схемой и клеевой основой для выкладывания камней. Символьная схема сверху покрыта пленкой. Предоставляется ключ к схеме и подробная инструкция, пинцет, карандаш с силиконовой подушечкой, акриловые квадратные сверху граненые камни, расфасованные в пакетики. В набор также входит небольшая тарелочка для удобства работы с камнями. Набор упакован в плотную картонную коробку, которая надежно защищает комплектующие от повреждения и имеет презентабельный вид",
+      "discount": 0,
+      "price": "999.00",
+      "is_active": true,
+      "is_new": true,
+      "created": "2022-04-25T11:52:37.736Z",
+      "updated": "2022-06-10T09:40:19.071Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 5,
+   "fields": {
+      "name": "Бисер 13 11/400гр",
+      "type": 5,
+      "category": 5,
+      "textile": null,
+      "color": null,
+      "country": 4,
+      "thread": null,
+      "material": null,
+      "length": null,
+      "themes": null,
+      "technique": null,
+      "stitching": null,
+      "dimension": "Длина 4 мм, размер 11",
+      "purpose": null,
+      "equipment": null,
+      "num_color": null,
+      "num_bead": null,
+      "description": "Бисер представлен в широком выборе бусин, различных форм, размеров и цветовых решений.  Такими бусинками вышивают, плетут аксессуары, изготавливают мозаику, картины, и даже создают иллюстрации на коже. Используемые художественные приемы полностью зависят от дизайна и метода исполнения. Бисер широко применяется при декорировании отдельных элементов в интерьере, например подушек, одеял, абажуров, гардин. С их помощью зонируют пространство, путем создания удивительных легких штор. Цвета  и дизайн бисеринок в ассортименте.",
+      "discount": 0,
+      "price": "135.06",
+      "is_active": true,
+      "is_new": true,
+      "created": "2022-06-08T09:50:25.813Z",
+      "updated": "2022-06-26T16:40:31.643Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 13,
+   "fields": {
+      "product": 1,
+      "picture": "products_images/product1_1.jpg",
+      "picture_small": "products_images_small/product1_1s.jpg",
+      "is_main": true,
+      "created": "2022-06-09T14:31:35.784Z",
+      "updated": "2022-06-09T16:11:28.110Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 14,
+   "fields": {
+      "product": 1,
+      "picture": "products_images/product1_2.jpg",
+      "picture_small": "products_images_small/product1_2s.jpg",
+      "is_main": false,
+      "created": "2022-06-09T14:31:35.787Z",
+      "updated": "2022-06-09T16:11:28.113Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 15,
+   "fields": {
+      "product": 1,
+      "picture": "products_images/product1_3.jpg",
+      "picture_small": "products_images_small/product1_3s.jpg",
+      "is_main": false,
+      "created": "2022-06-09T14:31:35.790Z",
+      "updated": "2022-06-09T16:11:28.115Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 16,
+   "fields": {
+      "product": 2,
+      "picture": "products_images/product2_1.jpg",
+      "picture_small": "products_images_small/product2_1s.jpg",
+      "is_main": true,
+      "created": "2022-06-09T14:32:30.385Z",
+      "updated": "2022-06-09T16:10:56.087Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 17,
+   "fields": {
+      "product": 2,
+      "picture": "products_images/product2_2.jpg",
+      "picture_small": "products_images_small/product2_2s.jpg",
+      "is_main": false,
+      "created": "2022-06-09T14:32:30.387Z",
+      "updated": "2022-06-09T16:10:56.089Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 18,
+   "fields": {
+      "product": 3,
+      "picture": "products_images/product3_1.jpg",
+      "picture_small": "products_images_small/product3_1s.jpg",
+      "is_main": true,
+      "created": "2022-06-09T14:33:04.193Z",
+      "updated": "2022-06-09T16:10:33.813Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 19,
+   "fields": {
+      "product": 4,
+      "picture": "products_images/product4_1.jpg",
+      "picture_small": "products_images_small/product4_1s.jpg",
+      "is_main": true,
+      "created": "2022-06-09T14:34:01.325Z",
+      "updated": "2022-06-09T16:10:11.209Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 20,
+   "fields": {
+      "product": 5,
+      "picture": "products_images/product5_1.jpg",
+      "picture_small": "products_images_small/product5_1s.jpg",
+      "is_main": true,
+      "created": "2022-06-09T14:34:21.656Z",
+      "updated": "2022-06-09T16:09:57.786Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 1,
+   "fields": {
+      "name": "Корзина"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 2,
+   "fields": {
+      "name": "Подтверждение"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 3,
+   "fields": {
+      "name": "Доставка"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 4,
+   "fields": {
+      "name": "Выполнено"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 8,
+   "fields": {
+      "customer": 3,
+      "status": 1,
+      "address": "",
+      "total_price": "2773.35",
+      "product_price": "2938.00",
+      "comment": null,
+      "cupon": "",
+      "created": "2022-06-23T08:42:19.200Z",
+      "updated": "2022-06-26T16:34:44.856Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 9,
+   "fields": {
+      "customer": 2,
+      "status": 1,
+      "address": "",
+      "total_price": "867.60",
+      "product_price": "964.00",
+      "comment": null,
+      "cupon": "",
+      "created": "2022-06-23T11:56:04.645Z",
+      "updated": "2022-06-23T16:44:42.088Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 15,
+   "fields": {
+      "customer": 17,
+      "status": 1,
+      "address": "",
+      "total_price": "0.00",
+      "product_price": "0.00",
+      "comment": null,
+      "cupon": "",
+      "created": "2022-06-23T16:04:07.417Z",
+      "updated": "2022-06-23T16:04:07.417Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 16,
+   "fields": {
+      "order": 8,
+      "product": 1,
+      "img": "/media/products_images_small/product1_1s.jpg",
+      "nmb": 1,
+      "product_price": "585.00",
+      "price_per_item": "555.75",
+      "total_price": "555.75",
+      "review": null,
+      "is_active": true,
+      "session_key": "klsnisdp9q4rifxtk1kpn22gh2tbhs6v",
+      "created": "2022-06-23T09:39:08.741Z",
+      "updated": "2022-06-26T16:34:44.772Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 17,
+   "fields": {
+      "order": 8,
+      "product": 2,
+      "img": "/media/products_images_small/product2_1s.jpg",
+      "nmb": 1,
+      "product_price": "390.00",
+      "price_per_item": "351.00",
+      "total_price": "351.00",
+      "review": "",
+      "is_active": true,
+      "session_key": "klsnisdp9q4rifxtk1kpn22gh2tbhs6v",
+      "created": "2022-06-23T09:39:10.595Z",
+      "updated": "2022-06-26T16:34:44.795Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 18,
+   "fields": {
+      "order": 8,
+      "product": 3,
+      "img": "/media/products_images_small/product3_1s.jpg",
+      "nmb": 1,
+      "product_price": "964.00",
+      "price_per_item": "867.60",
+      "total_price": "867.60",
+      "review": null,
+      "is_active": true,
+      "session_key": "klsnisdp9q4rifxtk1kpn22gh2tbhs6v",
+      "created": "2022-06-23T09:39:12.024Z",
+      "updated": "2022-06-26T16:34:44.825Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 19,
+   "fields": {
+      "order": 8,
+      "product": 4,
+      "img": "/media/products_images_small/product4_1s.jpg",
+      "nmb": 1,
+      "product_price": "999.00",
+      "price_per_item": "999.00",
+      "total_price": "999.00",
+      "review": null,
+      "is_active": true,
+      "session_key": "x666fcv9nl7wwi7crevkf6a6fo8bsrj1",
+      "created": "2022-06-23T12:13:06.537Z",
+      "updated": "2022-06-26T16:34:44.845Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 22,
+   "fields": {
+      "order": 9,
+      "product": 3,
+      "img": "/media/products_images_small/product3_1s.jpg",
+      "nmb": 1,
+      "product_price": "964.00",
+      "price_per_item": "867.60",
+      "total_price": "867.60",
+      "review": null,
+      "is_active": true,
+      "session_key": "l1k5c867wdlx2xyeqd7fb7lrxj0duj9y",
+      "created": "2022-06-23T12:18:19.994Z",
+      "updated": "2022-06-23T16:44:42.080Z"
+   }
+}
+]

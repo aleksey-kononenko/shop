@@ -1,28 +1,16 @@
 from .models import ProductInOrder, Order
-
+from utils.Cart_Dict import GetDict
 
 def get_card_info (request):
+    return_dict = dict()
     session_key = request.session.session_key
+    print('Get cart info')
     if not session_key:
         request.session.cycle_key
+    current_user = request.user
+    if current_user.id is not None:
+        order, created = Order.objects.get_or_create(customer=current_user, status_id=1)
+        if not created:
+            return_dict = GetDict(order.id)
 
-    products_in_cart = ProductInOrder.objects.filter(order_id=3, session_key=session_key, is_active=True)
-    products_total_nmb = products_in_cart.count()
-    order = Order.objects.filter(id=3)
-    if order:
-        order_total_price = order[0].total_price
-    # try:
-    #     print("enetered to mdw")
-    #     user = request.user
-    #     print(user)
-    #     if not user.is_anonymous():
-    #         print("not anon")
-    #         profile = Profile.objacts.get(user=user)
-    #         return  {"profile":profile}
-    #     else:
-    #         print("anonymous")
-    #         pass
-    # except:
-    #     pass
-    # is_act = "Ture"
-    return locals()
+    return return_dict

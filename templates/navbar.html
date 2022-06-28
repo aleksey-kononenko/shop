@@ -1,89 +1,203 @@
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">БАГЕТНЫЙ ДВОР</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="{% url 'home' %}">Домой</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="{% url 'registration' %}">Регистрация</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown cartMenu">
-          <a href="" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-            <i class="fa fa-shopping-cart">
-
-            </i>
-            <span class="cartRespons" id="cart_total_nmb">Корзина
-              {% if products_total_nmb %}
-                ({{ products_total_nmb }})
-              {% else %}
-                (0)
-              {% endif %}
-            </span>
-            <b class="caret"></b>
-          </a>
-          <div class="dropdown-menu-cart cartMenu hidden">
-            <div class="miniCartTable" style="overflow: hidden;">
-              <div class="mCustomScrollBox" style="position: relative; height: 100%; overflow: hidden; max-width: 100%; max-height: 300px;">
-                <div class="mCSB_container" style="position:relative; top:0;">
-                  <table>
-                    <tbody id="mCSB_tbody">
-                      {% for item_in_cart in products_in_cart %}
-                        <tr class="miniCartProduct">
-                          <td style="width:60%">
-                            <div class="mCPDescription">
-                              <h5><a href="{% url 'item' item_in_cart.product.id %}"> {{ item_in_cart.product.name }} </a></h5>
-                              <div class="price"><span> {{ item_in_cart.price_per_item }}UAH </span></div>
-                            </div>
-                          </td>
-                          <td style="width:20%" class="mCPQuantity">
-                            <a> X {{ item_in_cart.nmb }} </a>
-                          </td>
-                          <td style="width:20%" class="mCPSubtotal">
-                            <span> {{ item_in_cart.total_price }}UAH </span>
-                          </td>
-<!--                          <td style="width:5%" class="mCPDelete">-->
-<!--                            <a> x </a>-->
-<!--                          </td>-->
-                        </tr>
-                      {% endfor %}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-
+<!-- Modal Login start -->
+<div class="modal signUpContent fade in" id="ModalLogin" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> × </button>
+                <h3 class="modal-title-site text-center"> ВХОД В АККАУНТ </h3>
             </div>
-            <div class="miniCartFooter text-right">
-              <h3 class="text-right subtotal" id="cart_subtotal"> Subtotal: {{ order_total_price }} UAH </h3>
-              <a class="btn btn-sm btn-danger" href="{% url 'cart' %}"> <i class="fa fa-shopping-cart">
-                </i> VIEW CART
-              </a>
-              <a class="btn btn-sm btn-primary"> CHECKOUT </a></div>
+            <div class="modal-body">
+                <form action="{% url 'user_login_form' %}" method="post"> {% csrf_token %}
+                    <div class="form-group login-username">
+                        <div>
+                            <input name="log" id="login-user" class="form-control input" size="20" placeholder="Номер телефона" type="text">
+<!--                            {{ form.log }}-->
+                        </div>
+                    </div>
+                    <div class="form-group login-password">
+                        <div>
+                            <input name="Password" id="login-password" class="form-control input" size="20" placeholder="Пароль" type="password">
+<!--                            {{ form.password }}-->
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox login-remember">
+                                <label class="">
+                                    <div class="icheckbox_square-green iCheck-margin checked" style="position: relative;">
+                                      <input name="rememberme" value="forever" checked="checked" type="checkbox" style="position: absolute; opacity: 0;">
+<!--                                        {{ form.rememberme }}-->
+                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                    </div>
+                                    Запомнить меня </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                                <input name="submit" id="btn-login" class="btn  btn-block btn-lg btn-primary" value="ВОЙТИ" type="submit">
+                        </div>
+                    </div>
+                    <!--userForm-->
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p class="text-center"> Еще нет аккаунта? <a href="{% url 'registration' %}"> Зарегистрироваться </a> <br>
+                    <a href="forgot-password.html"> Забыли пароль? </a></p>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+
+    </div>
+    <!-- /.modal-dialog -->
+
+</div>
+<!-- /. Modal login -->
+<!-- Fixed navbar -->
+<div class="navbar navbar-tshop navbar-fixed-top megamenu" role="navigation">
+  <div class="navbar-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
+                  <div class="pull-left ">
+                      <ul class="userMenu ">
+                          <li><a href="#"> <span class="hidden-xs">ПОМОЩЬ</span><i class="glyphicon glyphicon-info-sign hide visible-xs "></i> </a></li>
+                          <li class="phone-number"><a href="callto:+12025550151"> <span> <i class="glyphicon glyphicon-phone-alt "></i></span> <span class="hidden-xs" style="margin-left:5px"> +1-202-555-0151 </span>
+                          </a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6 no-margin no-padding">
+                  <div class="pull-right">
+                      <ul class="userMenu">
+                          <li><a href="#" style="color: red;">{{user.last_name}} {{user.first_name}}</a></li>
+                          {% if not user.is_authenticated %}
+                              <li><a href="{% url 'registration' %}"><span class="hidden-xs"> Регистрация </span> <i class="glyphicon glyphicon-user hide visible-xs "></i></a></li>
+                              <li><a href="#" data-toggle="modal" data-target="#ModalLogin"> <span class="hidden-xs">Войти</span>
+                                  <i class="glyphicon glyphicon-log-in hide visible-xs "></i> </a></li>
+                          {% else %}
+                              <li><a href="{% url 'user_logout' %}"> <span class="hidden-xs">Выйти</span>
+                                  <i class="glyphicon glyphicon-log-in hide visible-xs "></i> </a></li>
+                          {% endif %}
+                      </ul>
+                  </div>
+              </div>
           </div>
-        </li>
-      </ul>
-    </div><!--/.nav-collapse -->
+      </div>
   </div>
-</nav>
+
+  <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only"> Toggle navigation </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-cart">
+                <i class="fa fa-shopping-cart colorWhite"> </i>
+                <span class="cartRespons colorWhite">
+                    {% if products_total_nmb %}
+                        ({{ products_total_nmb }})
+                    {% endif %}
+                </span>
+            </button>
+            <a class="navbar-brand" href="#">БАГЕТНЫЙ ДВОР</a>
+        </div>
+        <div class="navbar-cart  collapse">
+            <div class="cartMenu  col-lg-4 col-xs-12 col-md-4 ">
+                <div class="w100 miniCartTable scroll-pane mCustomScrollbar _mCS_1">
+                    <table>
+                        <tbody>
+                            {% for item_in_cart in products %}
+                                <tr class="miniCartProduct">
+                                    <td style="width:20%" class="miniCartProductThumb">
+                                        <div>
+                                            <a href="{% url 'item' item_in_cart.id %}"> <img src="{{ item_in_cart.img }}" alt="img"> </a>
+                                        </div>
+                                    </td>
+                                    <td style="width:40%">
+                                        <div class="miniCartDescription">
+                                            <h4><a href="{% url 'item' item_in_cart.id %}"> {{ item_in_cart.name }} </a></h4>
+                                            <div class="price">
+                                                <span> {{ item_in_cart.price }}UAH </span></div>
+                                            </div>
+                                    </td>
+                                    <td style="width:20%" class="miniCartQuantity">
+                                        <a> X {{ item_in_cart.nmb }} </a>
+                                    </td>
+                                    <td style="width:20%" class="miniCartSubtotal">
+                                        <span> {{ item_in_cart.total }}UAH </span>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <!--/.miniCartTable-->
+                <div class="miniCartFooter  miniCartFooterInMobile text-right">
+                    <h3 class="text-right subtotal">ВСЕГО: {{ order_total_price }}UAH</h3>
+                    <a class="btn btn-sm btn-danger" href="{% url 'cart' %}"> <i class="fa fa-shopping-cart"> </i> КОРЗИНА
+                    </a> <a href="{% url 'checkout' %}" class="btn btn-sm btn-primary"> ОФОРМИТЬ </a>
+                </div>
+                <!--/.miniCartFooter-->
+            </div>
+            <!--/.cartMenu-->
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="{% url 'home' %}">Домой</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">О нас</a></li>
+            </ul>
+            <div class="nav navbar-nav navbar-right hidden-xs">
+                <div class="dropdown  cartMenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <i class="fa fa-shopping-cart"> </i> <span class="cartRespons"> Корзина
+                    {% if products_total_nmb %}
+                        ({{ order_total_price }}UAH)
+                    {% endif %}
+                    </span> <b class="caret"> </b> </a>
+                    <div class="dropdown-menu col-lg-4 col-xs-12 col-md-4">
+                        <div class="w100 miniCartTable scroll-pane mCustomScrollbar _mCS_2">
+                            <table>
+                                <tbody id="mCSB_tbody">
+                                    {% for item_in_cart in products %}
+                                        <tr class="miniCartProduct">
+                                            <td style="width:20%" class="miniCartProductThumb">
+                                                <div>
+                                                    <a href="{% url 'item' item_in_cart.id %}"> <img src="{{ item_in_cart.img }}" alt="img"> </a>
+                                                </div>
+                                            </td>
+                                            <td style="width:40%">
+                                                <div class="miniCartDescription">
+                                                    <h4><a href="{% url 'item' item_in_cart.id %}"> {{ item_in_cart.name }} </a></h4>
+                                                    <div class="price">
+                                                        <span> {{ item_in_cart.price }}UAH </span></div>
+                                                    </div>
+                                            </td>
+                                            <td style="width:20%" class="miniCartQuantity">
+                                                <a> X {{ item_in_cart.nmb }} </a>
+                                            </td>
+                                            <td style="width:20%" class="miniCartSubtotal">
+                                                <span> {{ item_in_cart.total }}UAH </span>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        <!--/.miniCartTable-->
+
+                        <div class="miniCartFooter text-right">
+                            <h3 class="text-right subtotal"> ВСЕГО: {{ order_total_price }}UAH </h3>
+                            <a class="btn btn-sm btn-danger" href="{% url 'cart' %}"> <i class="fa fa-shopping-cart"></i> КОРЗИНА </a>
+                            <a class="btn btn-sm btn-primary" href="{% url 'checkout' %}"> ОФОРМИТЬ </a></div>
+                        <!--/.miniCartFooter-->
+                    </div>
+                    <!--/.dropdown-menu-->
+                </div>
+                <!--/.cartMenu-->
+            </div>
+        </div>
+        <!--/.nav-collapse -->
+  </div>
+</div>

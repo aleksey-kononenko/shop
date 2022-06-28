@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base_home.html' %}
 {% load static %}
 
 {% block title %}
@@ -6,48 +6,76 @@
 {% endblock %}
 
 {% block content %}
-    <div class="section-top">
-        <img src="{% static 'img/background.jpg' %}" class="img-responsive">
+<div class="banner">
+    <div class="full-container">
+        <div class="slider-content">
+            <!-- prev/next links -->
+            <span class="prevControl sliderControl"> <i class="fa fa-angle-left fa-3x "></i></span>
+            <span class="nextControl sliderControl"> <i class="fa fa-angle-right fa-3x "></i></span>
+
+            <div class="slider slider-v1"
+                 data-cycle-swipe=true
+                 data-cycle-center-horz=true
+                 data-cycle-center-vert=true
+                 data-cycle-prev=".prevControl"
+                 data-cycle-next=".nextControl"
+                 data-cycle-loader="wait">
+                 {% for img in slider %}
+                    <img src="{{ img.slider.url }}" >
+                 {% endfor %}
+            </div>
+            <!--/.slider-banner-->
+        </div>
+        <!--/.slider-content-->
     </div>
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <h3 class="section-title text-center"><span>NEW FEATURES</span></h3>
-                {% for item in product %}
-                    <div class="col-12 col-md-3 col-lg-3">
-                        <div class="product">
-                            <div class="image image-flex">
-                                <a href="{% url 'item' item.product.id %}">
-                                    <img src="{{ item.picture.url }}" class="responsive">
-                                </a>
+    <!--/.full-container-->
+</div>
+<div class="container main-container">
+    <!--  Main component -->
+    <div class="row featuredPostContainer globalPadding style2">
+        <h3 class="section-title style2 text-center">
+            <span>НОВЫЕ ПОСТУПЛЕНИЯ</span>
+        </h3>
+        <form id="form_add2cart" action="{% url 'add_item2cart' %}"> {% csrf_token %}
+        </form>
+        <div id="productslider" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+            {% for item in product %}
+                <div class="item">
+                    <div class="product">
+                        <div class="image">
+                            <a href="{% url 'item' item.product.id %}">
+                                <img src="{{ item.picture_small.url }}" alt="img" class="img-responsive">
+                            </a>
+                            <div class="promotion">
+                                <span class="new-product">NEW</span>
                                 {% if item.product.discount %}
-                                    <div class="promotion">
+                                    <div class="discount">
                                         <span>{{ item.product.discount }}%</span>
                                     </div>
                                 {% endif %}
                             </div>
+                        </div>
 
-                            <div class="description">
-                                <h4>{{ item.product.name }}</h4>
-                                <p>
-                                    {{ item.product.description|truncatechars_html:120}}
-                                </p>
-                            </div>
-                            <div>
-                                {{ item.product.price }} UAH
-                            </div>
-
-
-                            <div class="action-control">
-                                <button class="btn btn-primary">
-                                    Добавить в корзину
-                                </button>
-                            </div>
+                        <div class="description">
+                            <h4><a href="{% url 'item' item.product.id %}">{{ item.product.name }}</a></h4>
+                            <p>
+                                {{ item.product.description|truncatechars_html:120}}
+                            </p>
+                        </div>
+                        <div class="price">
+                            <span>{{ item.product.price }} UAH</span>
+                        </div>
+                        <div class="action-control">
+                            <button type="submit" class="btn btn-primary add2cart"
+                                data-product_id = "{{ item.product.id }}"
+                                >
+                                Добавить в корзину
+                            </button>
                         </div>
                     </div>
-                {% endfor %}
-
-            </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
+</div>
 {% endblock %}

@@ -78,6 +78,7 @@ class Product(models.Model):
     discount = models.IntegerField('Скидка', default=0)
     price = models.DecimalField('Цена', max_digits=6, decimal_places=2, blank=True, null=True, default=0.0)
     is_active = models.BooleanField('Актуальность', default=True)
+    is_new = models.BooleanField('Новый', default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
@@ -91,7 +92,8 @@ class Product(models.Model):
 
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    picture = models.ImageField(upload_to='products_images')
+    picture = models.ImageField(upload_to='products_images', default='default.jpg')                # 475x475
+    picture_small = models.ImageField(upload_to='products_images_small', default='products_images_small/default.jpg')    # 70x70
     is_main = models.BooleanField('Главная', default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)

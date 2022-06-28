@@ -6,25 +6,60 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container main-container headerOffset">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-            {% for image in item.productimage_set.all %}
-                <img src="{{ image.picture.url }}" class="responsive">
-            {% endfor %}
+        <div class="breadcrumbDiv col-lg-12">
+            <ul class="breadcrumb">
+                <li><a href="{% url 'home' %}">Домой</a></li>
+                <li><a href="category.html">Каталог</a></li>
+                <li class="active">{{ item.name }}</li>
+            </ul>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-5">
-            <h1 class="text-center">
+    </div>
+    <div class="row transitionfx">
+        <!-- left column  -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <!-- product Image and Zoom -->
+            <div class="main-image sp-wrap col-lg-12 no-padding">
+                {% for image in item.productimage_set.all %}
+                    <a href="{{ image.picture.url }}">
+                        <img src="{{ image.picture_small.url }}" class="img-responsive" alt="img">
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <!--  /left column end  -->
+        <!-- right column  -->
+        <div class="col-lg-6 col-md-6 col-sm-5 cartProductDescription">
+            <h1 class="product-title">
                 {{ item.name }}
             </h1>
-            <div>
-                <p>
-                    {{ item.price }}UAH
-                </p>
+            <div class="product-price">
+                <span id="price-sales" class="price-sales"> {{ price_discount }} </span>
+                {% if item.discount %}
+                    <span class="price-standard">{{ item.price }}UAH</span>
+                {% endif %}
             </div>
-            <div>
-                  <!-- Nav tabs -->
-                  <ul class="nav nav-tabs" role="tablist">
+            <div class="row">
+                <form id="form_buying_product" class="form-inline" action="{% url 'add_item2cart' %}"> {% csrf_token %}
+                    <div class="form-group col-lg-6 col-sm-6 col-xs-6">
+                        <input type="number" class="form-control" name="number" id="number" min="1" value="1">
+                    </div>
+                    <div class="form-group col-lg-6 col-sm-6 col-xs-6">
+                        <button type="submit" id="submit_btn" class="btn btn-primary btn-block btn-cart"
+                            data-product_id = "{{ item.id }}"
+                            data-name = "{{ item.name }}"
+                        >
+                        Добавить в корзину
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="clear"></div>
+            <div class="product-tab w100 clearfix">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
                     <li role="presentation" class="active">
                         <a href="#description" aria-controls="description" role="tab" data-toggle="tab">Описание</a>
                     </li>
@@ -32,40 +67,51 @@
                         <a href="#delivery" aria-controls="delivery" role="tab" data-toggle="tab">Доставка</a>
                     </li>
                     <li role="presentation">
-                        <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a>
+                        <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Отзыв</a>
                     </li>
-                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-                  </ul>
+                </ul>
 
-                  <!-- Tab panes -->
-                  <div class="tab-content">
+                <!-- Tab panes -->
+                <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="description">
                         {{ item.description }}
                     </div>
                     <div role="tabpanel" class="tab-pane" id="delivery">
-                        <h3>
-                            НОВАЯ ПОЧТА
-                        </h3>
+                        <table>
+                            <colgroup>
+                                <col style="width:33%">
+                                <col style="width:33%">
+                                <col style="width:33%">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <td>Standard</td>
+                                <td>1-5 business days</td>
+                                <td>$7.95</td>
+                            </tr>
+                            <tr>
+                                <td>Two Day</td>
+                                <td>2 business days</td>
+                                <td>$15</td>
+                            </tr>
+                            <tr>
+                                <td>Next Day</td>
+                                <td>1 business day</td>
+                                <td>$30</td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="3">* Free on orders of $50 or more</td>
+                            </tr>
+                            </tfoot>
+                        </table>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="messages">...</div>
                     <div role="tabpanel" class="tab-pane" id="settings">...</div>
-                  </div>
+                </div>
             </div>
-            <div>
-                <form id="form_buying_product" class="form-inline" action="{% url 'add_item2cart' %}"> {% csrf_token %}
-                    <div class="form-group">
-                        <input type="number" class="form-control" name="number" id="number">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" id="submit_btn" class="btn btn-success btn-buy"
-                            data-product_id = "{{ item.id }}"
-                            data-name = "{{ item.name }}"
-                        >
-                            Купить
-                        </button>
-                    </div>
-                </form>
-            </div>
+
         </div>
     </div>
 </div>
