@@ -155,7 +155,7 @@ ADMIN_MEDIA_PREFIX = '/static/admin'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# try:
-#     from .settings_prod import *
-# except:
-#     pass
+try:
+    from .settings_prod import *
+except:
+    pass
