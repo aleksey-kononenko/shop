@@ -16,9 +16,11 @@ class Status(models.Model):
         verbose_name = 'Статус заказа'
         verbose_name_plural = 'Статусы заказа'
 
+def default_user():
+    return User.objects.get(username='alex').pk
 
 class Order(models.Model):
-    customer = models.ForeignKey(User, on_delete=models.CASCADE)
+    customer = models.ForeignKey(User, blank=True, null=True, on_delete=models.PROTECT, db_constraint=False)
     status = models.ForeignKey(Status, on_delete=models.CASCADE)
     address = models.CharField('Адрес доставки', max_length=128, blank=True, null=True, default='')
     total_price = models.DecimalField('Окончательная цена', max_digits=8, decimal_places=2, default=0)

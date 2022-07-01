@@ -8,7 +8,7 @@ def get_card_info (request):
     if not session_key:
         request.session.cycle_key
     current_user = request.user
-    if current_user.id is not None:
+    if (current_user.id is not None) & (not current_user.is_superuser):
         order, created = Order.objects.get_or_create(customer=current_user, status_id=1)
         if not created:
             return_dict = GetDict(order.id)
