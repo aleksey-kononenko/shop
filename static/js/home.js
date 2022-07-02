@@ -54,22 +54,6 @@ $(document).ready(function () {
         //Specify options
         fx: 'scrollHorz',
         //Name of transition effect 
-        // slides: '.slider-item',
-        timeout: 5000,
-        // set time for nex slide 
-        speed: 1200,
-        // easeIn: 'easeInOutExpo',
-        // easing 
-        // easeOut: 'easeInOutExpo',
-        // pager: '#pager2',
-        //Selector for element to use as pager container 
-    });
-
-
-    $('.slider-v2').cycle({
-        //Specify options
-        fx: 'scrollHorz',
-        //Name of transition effect 
         slides: '.slider-item',
         timeout: 5000,
         // set time for nex slide 
@@ -77,7 +61,7 @@ $(document).ready(function () {
         easeIn: 'easeInOutExpo',
         // easing 
         easeOut: 'easeInOutExpo',
-        pager: '#pager',
+        pager: '#pager2',
         //Selector for element to use as pager container 
     });
 

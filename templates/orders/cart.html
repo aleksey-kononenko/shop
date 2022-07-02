@@ -36,8 +36,8 @@
                                         <td style="width:40%">Описание</td>
                                         <td style="width:10%" class="delete">&nbsp;</td>
                                         <td style="width:10%">Кол.</td>
-                                        <td style="width:10%">Скидка</td>
-                                        <td style="width:15%">Всего,UAH</td>
+                                        <td style="width:10%"><i class="fa-solid fa-percent"></i></td>
+                                        <td style="width:15%">Всего</td>
                                     </tr>
                                     {% for item_in_cart in products %}
                                         <tr class="CartProduct">
@@ -45,7 +45,7 @@
                                                 <div><a href="{% url 'item' item_in_cart.id %}"><img src="{{ item_in_cart.img }}" alt="img"></a></div>
                                             </td>
                                             <td>
-                                                <div class="CartDescription">
+                                                <div class="CartDescription" style="padding-left: 5px;">
                                                     <h4><a href="{% url 'item' item_in_cart.id %}">{{ item_in_cart.name }}</a></h4>
                                                     <div class="price">
                                                         <span class="price-per-item price-sales">{{ item_in_cart.price }}</span>

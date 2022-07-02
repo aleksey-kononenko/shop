@@ -9,19 +9,22 @@
 <div class="banner">
     <div class="full-container">
         <div class="slider-content">
+            <ul id="pager2" class="container">
+            </ul>
             <!-- prev/next links -->
             <span class="prevControl sliderControl"> <i class="fa fa-angle-left fa-3x "></i></span>
             <span class="nextControl sliderControl"> <i class="fa fa-angle-right fa-3x "></i></span>
 
             <div class="slider slider-v1"
                  data-cycle-swipe=true
-                 data-cycle-center-horz=true
-                 data-cycle-center-vert=true
                  data-cycle-prev=".prevControl"
                  data-cycle-next=".nextControl"
                  data-cycle-loader="wait">
                  {% for img in slider %}
-                    <img src="{{ img.slider.url }}" >
+                    <div class="slider-item slider-item-img1">
+                        <img src="{{ img.slider.url }}" class="img-responsive sliderImg" alt="img">
+                    </div>
+
                  {% endfor %}
             </div>
             <!--/.slider-banner-->

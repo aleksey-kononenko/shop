@@ -1,3 +1,9 @@
+
+var isMobile = function () {
+    return /(iphone|ipod|ipad|android|blackberry|windows ce|palm|symbian)/i.test(navigator.userAgent);
+};
+var productContainer = $('.equalHeightCategoryProduct');
+
 $(document).ready(function () {
 
     make_input_field();
@@ -212,5 +218,93 @@ $(document).ready(function () {
         mouseWheelPixels: "100",
         theme: "dark-2"
     });
+
+    /*=======================================================================================
+     Code for equal height - // your div will never broken if text get overflow
+     ========================================================================================*/
+
+
+    function equalHeightDivs() {
+        $('.subCategoryList > div').matchHeight({byRow: false})
+        $('.featuredImgLook2 .inner').matchHeight({byRow: false})
+        $('.featuredImageLook3 .inner').matchHeight({byRow: false})
+    };
+    equalHeightDivs();
+
+
+    /* testing page code only, you wont need this! */
+
+    productContainer.each(function () {
+        $(this).children('.item').matchHeight({
+            byRaw: true
+        });
+    });
+
+
+    var equalHeightUpdate = function () {
+        // equal height reload function
+
+        productContainer.each(function () {
+            $(this).children('.item').matchHeight({
+                remove: true
+            });
+        });
+
+        setTimeout(function () {
+                //  reload function after 0.5 second
+                productContainer.each(function () {
+                    $(this).children('.item').matchHeight({
+                        byRaw: true
+                    });
+                });
+            }
+            , 500);
+        // update all heights
+        $.fn.matchHeight._update();
+    };
+
+
+    window.addEventListener("orientationchange", function () {
+        // ipad, tab orientation
+        equalHeightUpdate();
+    }, false);
+
+
+    if (!isMobile()) {
+        // avoid touch event issue on resize
+        $(window).resize(function () {
+            equalHeightUpdate();
+            console.log('resized')
+        });
+    }
+
+    //if you need to call it at page load to resize elements etc.
+
+    (function () {
+        /* matchHeight category product  */
+        $(function () {
+            // apply matchHeight to each item container's items
+            $('.equalheightItem').each(function () {
+                $(this).children('.item').matchHeight({
+                    byRow: true
+                });
+            });
+
+        });
+
+    })();
+
+     // NEW ARRIVALS Carousel
+
+    function customPager() {
+
+        $.each(this.owl.userItems, function (i) {
+            var pagination1 = $('.owl-controls .owl-pagination > div:first-child');
+            var pagination = $('.owl-controls .owl-pagination');
+            $(pagination[i]).append("<div class=' owl-has-nav owl-next'><i class='fa fa-angle-right'></i>  </div>");
+            $(pagination1[i]).before("<div class=' owl-has-nav owl-prev'><i class='fa fa-angle-left'></i> </div>");
+        });
+
+    }
 
 })
