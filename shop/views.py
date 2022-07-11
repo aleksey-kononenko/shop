@@ -26,6 +26,7 @@ def shop(request):
         product_dict["img"] = item.picture_small.url
         product_dict["price"] = item.product.price
         product_dict["discount"] = item.product.discount
+        product_dict["is_new"] = item.product.is_new
         product_dict["description"] = item.product.description
         return_dict["catalog"].append(product_dict)
     # print(return_dict)
@@ -54,11 +55,8 @@ def shop_filter(request):
             max_price = int(data.get('max_price'))
             is_select = len(type_sel) | len(category_sel)
             if is_select:
-                # catalog = ProductImage.objects.filter(Q(product__type__in=type_sel) | Q(product__category__in=category_sel),
-                #                                       product__is_active=True, is_main=True, (Q(product__price__lt=max_price) AND Q(product__price__gt=min_price)))[:n]
                 catalog = ProductImage.objects.filter(Q(product__type__in=type_sel) | Q(product__category__in=category_sel), (Q(product__price__lte=max_price) & Q(product__price__gte=min_price)), product__is_active=True, is_main=True)[:n]
             else:
-                # catalog = ProductImage.objects.filter(product__is_active=True, is_main=True).exlude(product__price__gt=max_price).exlude(product__price__lt=min_price)[:n]
                 catalog = ProductImage.objects.filter((Q(product__price__lte=max_price) & Q(product__price__gte=min_price)), product__is_active=True, is_main=True)[:n]
             catalog_total_nmb = 0
             return_dict["catalog"] = list()
@@ -72,6 +70,7 @@ def shop_filter(request):
                     product_dict["price"] = item.product.price
                     product_dict["discount"] = item.product.discount
                     product_dict["description"] = item.product.description
+                    product_dict["is_new"] = item.product.is_new
                     return_dict["catalog"].append(product_dict)
             # | (is_discount == (item.product.discount > 0)) | (not is_new) | (not is_discount)  |  |  |
             return_dict["catalog_total_nmb"] = catalog_total_nmb

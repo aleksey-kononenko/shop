@@ -163,6 +163,9 @@
                                         <img src="{{ item_cat.img }}" alt="img" class="img-responsive">
                                     </a>
                                     <div class="promotion">
+                                        {% if item_cat.is_new %}
+                                            <span class="new-product">NEW</span>
+                                        {% endif %}
                                         {% if item_cat.discount %}
                                             <div class="discount">
                                                 <span>{{ item_cat.discount }}%</span>
@@ -209,9 +212,8 @@
                         <img src="{{url_img}}" alt="img" class="img-responsive">
                     </a>
                     <div class="promotion">
-                        <div class="discount">
-                            <span>{{discount}}%</span>
-                        </div>
+                        {{new}}
+                        {{discount}}
                     </div>
                 </div>
                 <div class="description">

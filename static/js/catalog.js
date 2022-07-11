@@ -61,11 +61,7 @@ $(document).ready(function () {
             data: data,
             cache: true,
             success: function (data) {
-                console.log(data);
-                // var cat_div = document.getElementsByClassName("categoryProduct")[0];
-                // // cat_div.innerHTML = "";
-                // cat_div.innerHTML = "";
-                // Cache of the template
+                // console.log(data);
                 var template = document.getElementById("template-product");
                 // Get the contents of the template
                 var templateHtml = template.innerHTML;
@@ -74,14 +70,26 @@ $(document).ready(function () {
                 var origin   = window.location.origin;
                 for (var item = 0; item < data.catalog_total_nmb; item++) {
                     var description = truncateString(data.catalog[item].description, 120);
-                    listHtml += templateHtml.replace(new RegExp('{{url}}', 'g'), origin+'/item/'+data.catalog[item].id)
-                                            .replace(new RegExp('{{url_img}}', 'g'), origin+data.catalog[item].img)
-                                            .replace(new RegExp('{{discount}}', 'g'), data.catalog[item].discount)
-                                            .replace(new RegExp('{{name}}', 'g'), data.catalog[item].name)
-                                            .replace(new RegExp('{{description}}', 'g'), description)
-                                            .replace(new RegExp('{{price}}', 'g'), data.catalog[item].price)
-                                            .replace(new RegExp('{{id}}', 'g'), data.catalog[item].id);
+                    var prodHtml = "";
+                    prodHtml = templateHtml.replace(new RegExp('{{url}}', 'g'), origin+'/item/'+data.catalog[item].id)
+                                           .replace(new RegExp('{{url_img}}', 'g'), origin+data.catalog[item].img)
+                                           .replace(new RegExp('{{name}}', 'g'), data.catalog[item].name)
+                                           .replace(new RegExp('{{description}}', 'g'), description)
+                                           .replace(new RegExp('{{price}}', 'g'), data.catalog[item].price)
+                                           .replace(new RegExp('{{id}}', 'g'), data.catalog[item].id);
+                    if (data.catalog[item].is_new) {
+                        prodHtml = prodHtml.replace(new RegExp('{{new}}', 'g'), '<span class="new-product">NEW</span>');
+                    } else {
+                        prodHtml = prodHtml.replace(new RegExp('{{new}}', 'g'), '')
+                    }
+                    if (data.catalog[item].discount) {
+                        prodHtml = prodHtml.replace(new RegExp('{{discount}}', 'g'), '<div class="discount"><span>'+data.catalog[item].discount+'%</span></div>');
+                    } else {
+                        prodHtml = prodHtml.replace(new RegExp('{{discount}}', 'g'), '')
+                    }
+                    listHtml += prodHtml;
                 }
+
                 $('#c_nmb').text(data.catalog_total_nmb);
                 document.getElementsByClassName("categoryProduct")[0].innerHTML = listHtml;
                 // console.log(cat_div);
