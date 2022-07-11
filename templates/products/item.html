@@ -5,13 +5,17 @@
 {{ title }}
 {% endblock %}
 
+{% block css  %}
+    {{ block.super }}
+{% endblock %}
+
 {% block content %}
 <div class="container main-container headerOffset">
     <div class="row">
         <div class="breadcrumbDiv col-lg-12">
             <ul class="breadcrumb">
                 <li><a href="{% url 'home' %}">Домой</a></li>
-                <li><a href="category.html">Каталог</a></li>
+                <li><a href="{% url 'shop' %}">Каталог</a></li>
                 <li class="active">{{ item.name }}</li>
             </ul>
         </div>
@@ -115,4 +119,13 @@
         </div>
     </div>
 </div>
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <script type="text/javascript">
+        /* wait for images to load */
+        $(window).load(function() {
+            $('.sp-wrap').smoothproducts();
+        });
+    </script>
 {% endblock %}

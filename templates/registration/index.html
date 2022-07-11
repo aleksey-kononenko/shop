@@ -5,6 +5,10 @@
 {{ title }}
 {% endblock %}
 
+{% block css  %}
+    {{ block.super }}
+{% endblock %}
+
 {% block content %}
 
 <div class="container main-container headerOffset">
@@ -77,6 +81,8 @@
     <div style="clear:both"></div>
 </div>
 <!-- /wrapper -->
+{% endblock %}
 
-
+{% block scripts %}
+    {{ block.super }}
 {% endblock %}

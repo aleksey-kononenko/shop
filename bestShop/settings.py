@@ -46,11 +46,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admindocs',
-    'fontawesomefree',
+    'fontawesome',
     'main',
     'registration',
     'products',
     'orders',
+    'shop',
 ]
 
 MIDDLEWARE = [

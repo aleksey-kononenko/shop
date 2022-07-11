@@ -1,8 +1,12 @@
-{% extends 'base_home.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block title %}
 {{ title }}
+{% endblock %}
+
+{% block css  %}
+    {{ block.super }}
 {% endblock %}
 
 {% block content %}
@@ -81,4 +85,16 @@
         </div>
     </div>
 </div>
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <!-- include carousel slider plugin  -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <!-- include jqueryCycle plugin -->
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
+    <!-- include jQueryUI plugin //Autocomplet  -->
+    <script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <!-- include custom script for only homepage  -->
+    <script src="{% static 'js/home.js' %}"></script>
 {% endblock %}

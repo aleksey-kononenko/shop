@@ -1,8 +1,13 @@
-{% extends 'base_checkout.html' %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block title %}
 {{ title }}
+{% endblock %}
+
+{% block css  %}
+    {{ block.super }}
+    <link href="{% static 'jquery-ui.css' %}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -11,6 +16,7 @@
         <div class="breadcrumbDiv col-lg-12">
             <ul class="breadcrumb">
                 <li><a href="{% url 'home' %}">Домой</a></li>
+                <li><a href="{% url 'shop' %}">Каталог</a></li>
                 <li><a href="{% url 'cart' %}">Корзина</a></li>
                 <li class="active">Оформление</li>
             </ul>
@@ -265,4 +271,10 @@
     <div style="clear:both"></div>
 </div>
 <!-- /.main-container-->
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <!-- include jQueryUI plugin //Autocomplet  -->
+    <script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/checkout.js' %}"></script>
 {% endblock %}

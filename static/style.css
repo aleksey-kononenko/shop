@@ -33,9 +33,9 @@
 /* owl.carousel */
 @import url("owl.theme.css");
 /* owl.carousel */
-/*@import url("font-awesome.css");*/
+/*@import url("font-awesome/css/font-awesome.css");*/
 /*!* Font Awesome Icon *!*/
-/*@import url("animate.min.css");*/
+@import url("animate.min.css");
 /*!* css3 animation *!*/
 @import url("jquery.mCustomScrollbar.css");
 /*!* mCustomScrollbar *!*/
@@ -92,6 +92,10 @@ body {
     font-size: 14px;
     line-height: 21px;
     position: relative;
+}
+
+.bolded {
+    font-weight: bold;
 }
 
 /* =============================================================== */
@@ -2567,7 +2571,7 @@ h1.bolder-style.dark, h1.bolder-style.dark a {
     -o-transition: all 0.3s ease 0s;
     -ms-transition: all 0.3s ease 0s;
     margin-bottom: 15px;
-    height: 500px;
+    /*height: 500px;*/
 
 }
 
@@ -3468,7 +3472,7 @@ h5.parallaxSubtitle {
     margin-bottom: 20px;
     padding-bottom: 7px;
     padding-top: 10px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .productFilter p {
