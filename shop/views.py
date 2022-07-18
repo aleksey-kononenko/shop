@@ -6,7 +6,7 @@ import json
 
 
 def shop(request):
-    print('Shop page')
+    # print('Shop page')
     return_dict = dict()
     return_dict['types'] = Type.objects.all()
     return_dict['categories'] = Category.objects.all()
@@ -29,7 +29,6 @@ def shop(request):
         product_dict["is_new"] = item.product.is_new
         product_dict["description"] = item.product.description
         return_dict["catalog"].append(product_dict)
-    # print(return_dict)
     return_dict['min_price'] = int(min_price)
     return_dict['max_price'] = int(max_price)
     title = {'title': 'Каталог'}
@@ -39,14 +38,13 @@ def shop(request):
 
 
 def shop_filter(request):
-    print("Shop filter")
+    # print("Shop filter")
     n = 6
     page = 1
     return_dict = dict()
     if request.method == 'GET':
         data = request.GET
         if data:
-            print(data)
             type_sel = data.getlist('types[]')
             category_sel = data.getlist('categories[]')
             is_discount = int(data.get('is_discount'))
@@ -72,7 +70,5 @@ def shop_filter(request):
                     product_dict["description"] = item.product.description
                     product_dict["is_new"] = item.product.is_new
                     return_dict["catalog"].append(product_dict)
-            # | (is_discount == (item.product.discount > 0)) | (not is_new) | (not is_discount)  |  |  |
             return_dict["catalog_total_nmb"] = catalog_total_nmb
-            print(return_dict)
     return JsonResponse(return_dict, safe=False)

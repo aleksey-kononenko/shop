@@ -307,4 +307,42 @@ $(document).ready(function () {
 
     }
 
+    // top navbar IE & Mobile Device fix
+    if (isMobile()) {
+        // For  mobile , ipad, tab
+        $('.introContent').addClass('ismobile');
+    } else {
+        $(function () {
+            //Keep track of last scroll
+            var tshopScroll = 0;
+            $(window).scroll(function (event) {
+                //Sets the current scroll position
+                var ts = $(this).scrollTop();
+                //Determines up-or-down scrolling
+                if (ts > tshopScroll) {
+                    // downward-scrolling
+                    $('.navbar').addClass('stuck');
+                } else {
+                    // upward-scrolling
+                    $('.navbar').removeClass('stuck');
+                }
+                if (ts < 600) {
+                    // downward-scrolling
+                    $('.navbar').removeClass('stuck');
+                    //alert()
+                }
+                tshopScroll = ts;
+                //Updates scroll position
+            });
+        });
+    } // end Desktop else
+
+    //active navbar for current page
+    $(function(){
+        $('.nav li a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).parents('li').addClass('active');
+            }
+        });
+    });
 })

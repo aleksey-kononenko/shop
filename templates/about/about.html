@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block css  %}
+    {{ block.super }}
+{% endblock %}
+
+{% block content %}
+<div class="parallaxOffset no-padding fixedContent contact-intro">
+    <div class="w100 map">
+        <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.023041115068!2d37.59531603707825!3d48.72415139534783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df972899cd8cdd%3A0x66d48f7c1c34b776!2z0JHQsNCz0LXRgtC90LDRjyDQvNCw0YHRgtC10YDRgdC60LDRjyDQmtGA0LDQvNCw0YLQvtGA0YHQuiAi0JHQsNCz0LXRgtC90YvQuSDQtNCy0L7RgCI!5e0!3m2!1sru!2snl!4v1657607704566!5m2!1sru!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</div>
+<!--/.contact-intro || map end-->
+<div class="wrapper whitebg contact-us">
+    <div class="container main-container ">
+        <div class="row innerPage">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="row userInfo">
+                    <div class="col-xs-12 col-sm-12">
+                        <h1 class="title-big text-center section-title-style2">
+                            <span> Contact us </span>
+                        </h1>
+                        <p class="lead text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit
+                            dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id
+                            hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia
+                            nostra, per inceptos himenaeos.
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <h3 class="block-title-5">
+                                    Customer care
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                    <br>
+                                    <strong>
+                                        Phone number
+                                    </strong>
+                                    : +88-01680531352
+                                    <br>
+                                    <strong>
+                                        Email us
+                                    </strong>
+                                    : contact@tanimdesign.net
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <h3 class="block-title-5">
+                                    Complaint
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
+                                    hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi
+                                    ullamcorper metus
+                                    <br>
+                                    <strong>
+                                        Phone number
+                                    </strong>
+                                    : +88-01680531352
+                                    <br>
+                                    <strong>
+                                        Email us
+                                    </strong>
+                                    : sales@tanimdesign.net
+                                </p>
+                            </div>
+                            <div style="clear:both"></div>
+                            <hr>
+                            <div style="clear:both"></div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <h3 class="block-title-5">
+                                    Feedback
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat
+                                    hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi
+                                    ullamcorper metus
+                                    <email>
+                                        feedback@tanimdesign.net
+                                    </email>
+
+                                    <br>
+                                    <strong>
+                                        Email us
+                                    </strong>
+                                    : feedback@tanimdesign.net
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <h3 class="block-title-5">
+                                    Other Enquiries
+                                </h3>
+                                <p>
+                                    <strong>
+                                        Corporate Sales
+                                    </strong>
+                                    : Corporate@tanimdesign.net
+                                    <br>
+                                    <strong>
+                                        Careers
+                                    </strong>
+                                    : Careers@tanimdesign.net
+                                    <br>
+                                    <strong>
+                                        Press Relations
+                                    </strong>
+                                    : pr@tanimdesign.net
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <!--/.row-->
+                    </div>
+                </div>
+                <!--/.row  ||  -->
+            </div>
+        </div>
+        <!--/row || innerPage end-->
+        <div style="clear:both"></div>
+    </div>
+    <!-- ./main-container -->
+    <div class="gap"></div>
+</div>
+<!-- /main-container -->
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <!-- include carousel slider plugin  -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <!-- include jqueryCycle plugin -->
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
+{% endblock %}

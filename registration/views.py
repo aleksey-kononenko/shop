@@ -8,11 +8,10 @@ from orders.models import Order
 
 def registration(request):
     error = ''
-    print('Make user')
+    # print('Make user')
     if request.method == 'POST':
         form = UserForm(request.POST)
         if form.is_valid():
-            print('yes')
             data = request.POST
             log = data['username']
             pswd = data['password']
@@ -21,25 +20,18 @@ def registration(request):
             first_name = data['first_name']
             last_name = data['last_name']
             if pswd == pswd2:
-                # form.save()
-                print('Пароли верны')
                 user = User.objects.filter(username=log)
                 if user:
-                    print('пользователь существует')
                     user = authenticate(request, username=log, password=pswd)
                 else:
-                    print('регистрируем пользователя')
                     user = User.objects.create_user(username=log, email=email, first_name=first_name,
                                                     last_name=last_name, password=pswd)
                     user.save()
-                print(user.username)
                 login(request, user)
                 return redirect('home')
             else:
                 error = 'Ошибка подтверждения пароля'
-                print('Ошибка пароля')
         else:
-            print('no')
             error = 'Данные неверные'
     form = UserForm()
     context = {
@@ -52,7 +44,7 @@ def registration(request):
 
 def user_login_form(request):
     error = ''
-    print('User login form')
+    # print('User login form')
     if request.method == 'POST':
         data = request.POST
         log = data.get("log")
@@ -61,9 +53,7 @@ def user_login_form(request):
         user = authenticate(request, username=log, password=password)
         if user is not None:
             login(request, user)
-            new_order, created = Order.objects.get_or_create(customer=user, status_id=1)
-            if not created:
-                return_dict = GetDict(new_order.id)
+            # order = Order.objects.filter(customer=user, status_id=1)
     return redirect('home')
 
 

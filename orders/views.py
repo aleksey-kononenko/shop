@@ -1,12 +1,12 @@
 from django.http import JsonResponse
 from .models import ProductInOrder, Order
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from utils.Cart_Dict import GetDict
 from .services import get_cities, get_warehouses
 
 
 def add_item2cart(request):
-    print('Add to cart')
+    # print('Add to cart')
     session_key = request.session.session_key
     data = request.POST
     current_user = request.user
@@ -33,13 +33,13 @@ def add_item2cart(request):
 
 
 def cart(request):
-    print('CART test')
+    # print('CART test')
     return render(request, 'orders/cart.html', {'title': 'Корзина'})
 
 
 def update_cart(request):
     return_dict = dict()
-    print('UPDATE test')
+    # print('UPDATE test')
     if request.POST:
         data = request.POST
         current_user = request.user
@@ -67,22 +67,25 @@ def update_cart(request):
 
 
 def checkout(request):
-    print('CHECKOUT test')
+    # print('CHECKOUT test')
     current_user = request.user
-    order = Order.objects.get(customer=current_user, status_id=1)
+    try:
+        order = Order.objects.get(customer=current_user, status_id=1)
+        return render(request, 'orders/checkout.html', {'title': 'Оформление заказа', 'order': order})
+    except Order.DoesNotExist:
+        print('Error update cart')
+        return redirect('home')
 
-    return render(request, 'orders/checkout.html', {'title': 'Оформление заказа', 'order': order})
 
 
 def search(request):
-    print("Search city")
+    # print("Search city")
     if request.method == 'GET':
         q = request.GET.get('term', '')
         results = []
         len_reg = len(q)
-        if len_reg > 2:
+        if len_reg > 3:
             cities = get_cities(q)
-            print(results)
             for city in cities:
                 new_dict = dict()
                 descr = city['DescriptionRu']
@@ -92,20 +95,16 @@ def search(request):
                     new_dict['DescriptionRu'] = descr
                     new_dict['Ref'] = ref
                 results.append(new_dict)
-        print(results)
         return JsonResponse(results, safe=False)
 
 
 def search_wh(request):
-    print("Search warehouse")
+    # print("Search warehouse")
     return_dict = dict()
     if request.method == 'GET':
-        # if request.is_ajax():
         data = request.GET
         ref = data['ref']
-        print(ref)
         whs = get_warehouses(ref)
-        print(whs)
         return_dict['DescriptionRu'] = data['city']
         return_dict['warehouse'] = list()
         for wh in whs:
@@ -115,7 +114,6 @@ def search_wh(request):
             new_dict['DescriptionRu_wh'] = descr
             new_dict['Ref_wh'] = ref
             return_dict['warehouse'].append(new_dict)
-        # print(return_dict)
         title = {'title': 'Корзина'}
         context = {**title, **return_dict}
-        return render(request, 'orders/checkout.html', context)
+        return JsonResponse(return_dict, safe=False)

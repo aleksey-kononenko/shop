@@ -4,7 +4,7 @@ from .models import Slider
 
 
 def index(request):
-    print('Main page')
+    # print('Main page')
     product_image = ProductImage.objects.filter(product__is_active=True, product__is_new=True, is_main=True)
     slider_image = Slider.objects.filter(is_show=True)
 
