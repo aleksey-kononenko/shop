@@ -104,3 +104,45 @@ class ProductImage(models.Model):
     class Meta:
         verbose_name = 'Фотография'
         verbose_name_plural = 'Фотографии'
+
+
+class BaguetteColor(models.Model):
+    color = models.CharField('Цвет', max_length=64)
+
+    def __str__(self):
+        return self.color
+
+    class Meta:
+        verbose_name = 'Цвет багета'
+        verbose_name_plural = 'Цвета багета'
+
+
+class BaguetteMaterial(models.Model):
+    material = models.CharField('Материал', max_length=64)
+
+    def __str__(self):
+        return self.material
+
+    class Meta:
+        verbose_name = 'Материал багета'
+        verbose_name_plural = 'Материалы багета'
+
+
+class Baguette(models.Model):
+    name = models.CharField('Наименование', max_length=64)
+    color = models.ForeignKey(BaguetteColor, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    material = models.ForeignKey(BaguetteMaterial, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    width = models.IntegerField('Ширина', default=0)
+    discount = models.IntegerField('Скидка', default=0)
+    price = models.DecimalField('Цена', max_digits=6, decimal_places=2, blank=True, null=True, default=0.0)
+    is_active = models.BooleanField('Актуальность', default=True)
+    is_new = models.BooleanField('Новый', default=False)
+    created = models.DateTimeField(auto_now_add=True, auto_now=False)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+
+    def __str__(self):
+        return  self.name
+
+    class Meta:
+        verbose_name = 'Багет'
+        verbose_name_plural = 'Багеты'

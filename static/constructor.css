@@ -1,0 +1,118 @@
+:root{
+    --frame_width: 30px;
+    --figure_width: 30px;
+    --figure_height: 30px;
+    --spaspartu_width: 0px;
+    --dpaspartu_width: 0px;
+    --slip_width: 30px;
+}
+
+#constructor figure {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: var(--figure_height);
+    overflow-y: auto;
+    scrollbar-width: none;
+    cursor: zoom-in;
+}
+
+#constructor figure.empty {
+    cursor: default;
+}
+
+#constructor figure .result {
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1;
+    padding: calc(var(--frame_width) - 2px);
+    transition: transform .5s ease-in-out;
+}
+
+#constructor figure .result .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#constructor figure .result .frame .corner {
+    display: none;
+    z-index: 3;
+}
+
+#constructor figure .result .frame .corner, #constructor figure .result .frame .side {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: var(--frame_width);
+}
+
+#constructor figure .result .frame .corner.tr {
+    right: 0;
+    transform: rotate(90deg);
+}
+
+#constructor figure .result .frame .corner.bl {
+    left: 0;
+    bottom: 0;
+    transform: rotate(-90deg);
+}
+
+#constructor figure .result .frame .corner.br {
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+/*#constructor figure .result .frame .side {*/
+/*    clip-path: polygon(0 0, 100% 0, calc(100% - var(--frame_width)) 100%, var(--frame_width) 100%);*/
+/*    -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - var(--frame_width)) 100%, var(--frame_width) 100%);*/
+/*}*/
+
+#constructor figure .result .frame .corner, #constructor figure .result .frame .side {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: var(--frame_width);
+}
+
+
+#constructor figure .result .frame .side.top {
+    z-index: 2;
+}
+
+#constructor figure .result .frame .side.right {
+    width: auto;
+    left: 100%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    z-index: 1;
+}
+
+#constructor figure .result .frame .side.bottom {
+    bottom: -1px;
+    transform: rotate(180deg);
+    z-index: 2;
+}
+
+#constructor figure .result .frame .side.left {
+    width: auto;
+    left: 0;
+    top: 100%;
+    transform: rotate(270deg);
+    transform-origin: top left;
+    z-index: 1;
+}
+
+#paspartu {
+    padding: var(--spaspartu_width);
+}
+
+#dpaspartu {
+    padding: var(--dpaspartu_width);
+}

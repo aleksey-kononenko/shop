@@ -1,0 +1,39 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+{% block extrastyle %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}">
+<style>
+    .custom-file-upload {
+        border: 1px solid #ccc;
+        width: 326px;
+        padding: 6px 12px;
+        cursor: pointer;
+}
+</style>
+{{ form.media }}
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} login{% endblock %}
+
+{% block usertools %}{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block nav-sidebar %}<h1>Test</h1>{% endblock %}
+
+{% block content_title %}{% endblock %}
+
+{% block breadcrumbs %}{% endblock %}
+
+{% block content %}
+
+<div>
+    <form action="{% url 'get_url' %}" method="post", enctype="multipart/form-data">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button type="submit">Загрузить файл</button>
+    </form>
+</div>
+
+{% endblock %}

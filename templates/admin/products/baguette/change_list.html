@@ -1,0 +1,15 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+
+
+{% block sidebar %}
+<form action="{% url 'upload_csv' %}" id="upload-data" method="post"> {% csrf_token %}
+    <div class="actions">
+        <label style="font-size: 13px">Загрузить данные в базу
+            <button type="submit" class="button" style="height: 24px; padding: 4px 8px"> Загрузить csv файл </button>
+        </label>
+    </div>
+</form>
+{{ block.super }}
+
+{% endblock %}

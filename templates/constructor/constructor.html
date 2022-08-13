@@ -1,0 +1,413 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% get_static_prefix as STATIC_PREFIX %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block css  %}
+    {{ block.super }}
+    <!-- Custom styles -->
+    <link href="{% static 'constructor.css' %}" rel="stylesheet">
+    <link href="{% static 'jquery-ui.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container main-container headerOffset">
+    <div class="row">
+        <div class="breadcrumbDiv col-lg-12">
+            <ul class="breadcrumb">
+                <li><a href="{% url 'home' %}">Домой</a></li>
+                <li><a href="{% url 'shop' %}">Каталог</a></li>
+                <li class="active">Конструктор рам</li>
+            </ul>
+        </div>
+    </div>
+    <!--/.row-->
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-7 col-xs-6 col-xxs-12 text-center-xs">
+            <h1 class="section-title-inner"><span><i class="glyphicon glyphicon-picture"></i> Конструктор рам </span></h1>
+        </div>
+    </div>
+    <div class="row">
+        <!--left column-->
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="panel-group" id="filterFrame">
+                <!--Material-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapseMaterial"
+                                                   class="collapseWill active">
+                            <span class="pull-left"> <i class="fa fa-caret-right"></i></span> Материал </a></h4>
+                    </div>
+                    <div id="collapseMaterial" class="panel-collapse collapse in">
+                        <div class="panel-body smoothscroll maxheight300">
+                            {% for f_material in materials %}
+                                <div class="block-element">
+                                    <label><input type="checkbox" name="material" value="0" data-id = "{{ f_material.id }}"/> {{ f_material.material }} </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <!--Color-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapseColor"
+                                                   class="collapseWill active">
+                            <span class="pull-left"> <i class="fa fa-caret-right"></i></span> Цвет </a></h4>
+                    </div>
+                    <div id="collapseColor" class="panel-collapse collapse in">
+                        <div class="panel-body smoothscroll maxheight300">
+                             {% for f_color in colors %}
+                                <div class="block-element">
+                                    <label><input type="checkbox" name="color" value="0" data-id = "{{ f_color.id }}"/> {{ f_color.color }} </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <!--Width-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapseWidth"
+                                                   class="collapseWill active">
+                            <span class="pull-left"> <i class="fa fa-caret-right"></i></span> Ширина багета </a>
+                        </h4>
+                    </div>
+                    <div id="collapseWidth" class="panel-collapse collapse in">
+                        <div class="panel-body priceFilterBody">
+                            <!-- -->
+                            <label>
+                                <input type="radio" name="width" value="0" checked/>
+                                Все</label>
+                            <br>
+                            <label>
+                                <input type="radio" name="width" value="1"/>
+                                10 - 39 мм</label>
+                            <br>
+                            <label>
+                                <input type="radio" name="width" value="2"/>
+                                40 - 69 мм</label>
+                            <br>
+                            <label>
+                                <input type="radio" name="width" value="3"/>
+                                70 - 90 мм</label>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <!--Dimentions-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapseDimentions"
+                                                   class="collapseWill active">
+                            <span class="pull-left"> <i class="fa fa-caret-right"></i></span> Размер </a></h4>
+                    </div>
+                    <div id="collapseDimentions" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p>Введите размеры изображения </p>
+                            <form class="form-inline " role="form" id="dimentions" action="">
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="width" placeholder="Ширина, мм" required name="width" value="500" min="90" max="2800">
+                                </div>
+                                <div class="form-group sp">x</div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="height" placeholder="Высота, мм" required name="height" value="500" min="90" max="2800">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Attribute-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a data-toggle="collapse" href="#collapseAttribute"
+                                                   class="collapseWill active">
+                            <span class="pull-left"> <i class="fa fa-caret-right"></i></span> Дополнительные параметры </a></h4>
+                    </div>
+                    <div id="collapseAttribute" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <select id="glass" class="form-control" name="glass">
+                                    <option value>Стекло ...</option>
+                                    <option value="1">Акриловое стекло</option>
+                                    <option value="2">Музейное стекло</option>
+                                    <option value="3">Антибликовое стекло</option>
+                                    <option value="4">Обычное стекло</option>
+                                    <option value="5">Зеркало</option>
+                                    <option value="2">Без стекла</option>
+                                </select>
+                                <select id="stitching" class="form-control" name="stitching">
+                                    <option value>Зашивка ...</option>
+                                    <option value="1">ДВП</option>
+                                    <option value="2">Без зашивки</option>
+                                </select>
+                                <select id="base" class="form-control" name="base">
+                                    <option value>Основа ...</option>
+                                    <option value="1">ДВП</option>
+                                    <option value="2">Без основы</option>
+                                </select>
+                                <select id="mounting" class="form-control" name="mounting">
+                                    <option value>Крепление ...</option>
+                                    <option value="1">Крокодил</option>
+                                    <option value="2">Петли</option>
+                                </select>
+                            </div>
+                            <div class="product-tab w100 clearfix">
+                                <!-- Nav tabs paspartu -->
+                                <ul class="nav nav-tabs baguette" id="paspartu_type" data-paspartu="remove">
+                                    <li role="presentation" class="active">
+                                        <a href="#empty_p" aria-controls="empty_p" role="tab" data-toggle="tab" style="letter-spacing: 0; padding: 5px">Без паспарту</a>
+                                    </li>
+                                    <li role="presentation" id="paspartu_tab">
+                                        <a href="#single_p" aria-controls="single_p" role="tab" data-toggle="tab" style="letter-spacing: 0; padding: 5px">Одинарное</a>
+                                    </li>
+                                    <li role="presentation" class="hidden" id="dpaspartu_tab">
+                                        <a href="#double_p" aria-controls="double_p" role="tab" data-toggle="tab" style="letter-spacing: 0; padding: 5px">Двойное</a>
+                                    </li>
+                                </ul>
+                            </div>
+                             <div class="tab-content">
+                                 <div role="tabpanel" class="tab-pane active" id="empty_p">
+                                 </div>
+                                 <div role="tabpanel" class="tab-pane" id="single_p">
+                                     <label for="p1_width"> Внутреннее паспарту
+                                        <input type="number" class="form-control" id="p1_width" placeholder="Ширина, мм" name="p1_width" value="20" min="0" max="50">
+                                     </label>
+                                     <div id="s_paspartu_list" class="paspartu_list inline">
+                                         <img src="{% static '/media/paspartu/35.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/39.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/43.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/47.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/59.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/62.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/63.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/65.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/73.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/77.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/78.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/79.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/80.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/83.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/177.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/193.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/194.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/197.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/500.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/516.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/604.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/609.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/721.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/752.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/762.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/766.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/A116.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/A117.png' %}" alt="">
+                                     </div>
+                                 </div>
+                                 <div role="tabpanel" class="tab-pane" id="double_p">
+                                     <label for="p1_width"> Внешнее паспарту
+                                         <input type="number" class="form-control" id="p2_width" placeholder="Ширина, мм" name="p2_width" value="20" min="0" max="50">
+                                     </label>
+                                     <div id="d_paspartu_list" class="paspartu_list inline">
+                                         <img src="{% static '/media/paspartu/35.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/39.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/43.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/47.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/59.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/62.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/63.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/65.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/73.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/77.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/78.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/79.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/80.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/83.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/177.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/193.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/194.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/197.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/500.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/516.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/604.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/609.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/721.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/752.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/762.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/766.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/A116.png' %}" alt="">
+                                         <img src="{% static '/media/paspartu/A117.png' %}" alt="">
+                                     </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--center column-->
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div id="constructor" class="layout">
+                <figure class="empty" id="figure" data-baguette_width="{% with baguette|first as first_doc %}{{ first_doc.width }}{% endwith %}" style="background: #1abc9c">
+                    <div id="result" class="result">
+                        <div id="frame" class="frame">
+                            <div class="corner tl">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/c.png" alt="">
+                            </div>
+                            <div class="corner tr">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/c.png" alt="">
+                            </div>
+                            <div class="corner bl">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/c.png" alt="">
+                            </div>
+                            <div class="corner br">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/c.png" alt="">
+                            </div>
+                            <div class="side top" id="side_top">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/h.png" alt="">
+                            </div>
+                            <div class="side right" id="side_right">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/h.png" alt="">
+                            </div>
+                            <div class="side bottom" id="side_bottom">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/h.png" alt="">
+                            </div>
+                            <div class="side left" id="side_left">
+                                <img src="{{ STATIC_PREFIX }}media/catalog/{% with baguette|first as first_doc %}{{ first_doc.name }}{% endwith %}/h.png" alt="">
+                            </div>
+                        </div>
+                        <div id="dpaspartu" class="paspartu">
+                            <div id="paspartu" class="paspartu">
+                                <div id="picture" class="picture">
+                                    <img src="#" alt="" style="display: none">
+                                    <div class="empty_frame" id="empty_frame">
+                                        <label>
+                                            <input type="file" id="upload_image" accept="image/*">
+                                            <i class="glyphicon glyphicon-picture" style="font-size: 50px"></i>
+                                            <span>Завантажити зображення</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <br>
+            <div class="w100 clearfix category-top" id="baguetteslider">
+                {% for item in baguette %}
+                    <div class="item baguette col-sm-4 col-lg-4 col-md-4 col-xs-6">
+                        <div class="product" data-name="{{ item.name }}" data-width="{{ item.width }}">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="{{ STATIC_PREFIX }}media/catalog/{{ item.name }}/img-1000x1000.png" alt="img" class="img-responsive">
+                                </a>
+                            </div>
+                            <hr style="margin: 0">
+                            <div class="description">
+                                <h4><a href="#">{{ item.name }}</a></h4>
+                            </div>
+                            <div class="price">
+                                <span>{{ item.price }} грн/м</span>
+                            </div>
+                            <div class="attrs">
+                                <p>Ширина: {{ item.width }} мм</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="w100 categoryFooter">
+                <div class="pagination pull-left no-margin-top">
+                    <ul class="pagination no-margin-top" id="pagination">
+                        <li><a href="#">«</a></li>
+                        {% for i in page_total_nmb %}
+                            {% if i == current_page %}
+                                <li class="active"><a href="#">{{i}}</a></li>
+                            {% else %}
+                                <li><a href="#">{{i}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        <li><a href="#">»</a></li>
+                    </ul>
+                </div>
+                <div class="pull-right pull-right col-sm-6 col-xs-12 no-padding text-right text-left-xs">
+                    <p><strong>Показаны позиции {{baguette_range}} из {{baguette_total_nmb}}</strong></p>
+                </div>
+            </div>
+        </div>
+        <!--right column-->
+        <div class="col-lg-3 col-md-3 col-sm-12 rightSidebar">
+            <div class="contentBox">
+                <div class="w100 costDetails">
+                    <div class="table-block" id="order-detail-content"><a class="btn btn-primary btn-lg btn-block " title="checkout" href="{% url 'checkout' %}" style="margin-bottom:20px"> Оформить заказ
+                        <i class="fa fa-arrow-right"></i> </a>
+                        <div class="w100 cartMiniTable">
+                            <table id="cart-summary" class="std table">
+                                <tbody>
+                                    <tr>
+                                        <td>Цена, UAH</td>
+                                        <td class="price">{{ order_product_price }}</td>
+                                    </tr>
+                                    <tr style="">
+                                        <td>Доставка</td>
+                                        <td class="price"><span class="success">Бесплатно!</span></td>
+                                    </tr>
+                                    <tr class="cart-total-price ">
+                                        <td>Cкидка, UAH</td>
+                                        <td class="price">{{ order_discount }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Итого, UAH</td>
+                                        <td class=" site-color" id="total-price">{{ order_total_price }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="input-append couponForm">
+                                                <input class="col-lg-6" id="appendedInputButton" type="text" placeholder="Код купона">
+                                                <button class="col-lg-6 btn btn-success" type="button">Применить!</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End popular -->
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'js/constructor.js' %}"></script>
+    <script id="template-baguette" type="text/template">
+        <div class="item baguette col-sm-4 col-lg-4 col-md-4 col-xs-6">
+            {% verbatim %}
+            <div class="product" data-name="{{name}}" data-width="{{width}}">
+                <div class="image">
+                    <a href="#">
+                        <img src="{{url}}" alt="img" class="img-responsive">
+                    </a>
+                </div>
+                <hr style="margin: 0">
+                <div class="description">
+                    <h4><a href="#">{{name}}</a></h4>
+                </div>
+                <div class="price">
+                    <span>{{price}} грн/м</span>
+                </div>
+                <div class="attrs">
+                    <p>Ширина: {{width}} мм</p>
+                </div>
+            </div>
+            {% endverbatim %}
+        </div>
+    </script>
+{% endblock %}

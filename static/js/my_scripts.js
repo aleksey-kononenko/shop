@@ -281,7 +281,7 @@ $(document).ready(function () {
     //if you need to call it at page load to resize elements etc.
 
     (function () {
-        /* matchHeight category product  */
+        /* matchHeight category baguette  */
         $(function () {
             // apply matchHeight to each item container's items
             $('.equalheightItem').each(function () {

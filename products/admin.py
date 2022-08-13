@@ -1,5 +1,8 @@
 from django.contrib import admin
+from django.urls import path
 from .models import *
+from .forms import CsvImportForm
+from django.shortcuts import render
 
 
 class ProductImageInline(admin.TabularInline):
@@ -79,3 +82,32 @@ class ProductImageAdmin(admin.ModelAdmin):
 admin.site.register(ProductImage, ProductImageAdmin)
 
 
+class BaguetteAdmin(admin.ModelAdmin):
+    list_display = ['id', 'name', 'material', 'color']
+    list_filter = ['material', 'color']
+
+    class Meta:
+        model = Baguette
+
+
+admin.site.register(Baguette, BaguetteAdmin)
+
+
+class BaguetteColorAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in BaguetteColor._meta.fields]
+
+    class Meta:
+        model = BaguetteColor
+
+
+admin.site.register(BaguetteColor, BaguetteColorAdmin)
+
+
+class BaguetteMaterialAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in BaguetteMaterial._meta.fields]
+
+    class Meta:
+        model = BaguetteMaterial
+
+
+admin.site.register(BaguetteMaterial, BaguetteMaterialAdmin)

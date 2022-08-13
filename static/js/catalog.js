@@ -78,7 +78,7 @@ $(document).ready(function () {
                                            .replace(new RegExp('{{price}}', 'g'), data.catalog[item].price)
                                            .replace(new RegExp('{{id}}', 'g'), data.catalog[item].id);
                     if (data.catalog[item].is_new) {
-                        prodHtml = prodHtml.replace(new RegExp('{{new}}', 'g'), '<span class="new-product">NEW</span>');
+                        prodHtml = prodHtml.replace(new RegExp('{{new}}', 'g'), '<span class="new-baguette">NEW</span>');
                     } else {
                         prodHtml = prodHtml.replace(new RegExp('{{new}}', 'g'), '')
                     }
